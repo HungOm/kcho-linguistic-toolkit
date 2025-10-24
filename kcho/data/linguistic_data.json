@@ -1,0 +1,3519 @@
+{
+    "metadata": {
+      "version": "2.1",
+      "last_updated": "2025-10-23",
+      "source": "Parallel corpus extraction + Original research",
+      "total_verses_processed": 29796,
+      "total_words_processed": 990662,
+      "unique_words": 15978
+    },
+    "verb_stems": {
+      "lùum": {
+        "stem2": "luum",
+        "gloss": "play",
+        "pattern": "tone_change"
+      },
+      "pe": {
+        "stem2": "peit",
+        "gloss": "give",
+        "pattern": "suffix_it"
+      },
+      "that": {
+        "stem2": "thah",
+        "gloss": "beat",
+        "pattern": "t_to_h"
+      },
+      "lo": {
+        "stem2": "loo",
+        "gloss": "begin",
+        "pattern": "vowel_change"
+      },
+      "zèi": {
+        "stem2": "zèi",
+        "gloss": "be_pleased",
+        "pattern": "no_change"
+      },
+      "na": {
+        "stem2": "nák",
+        "gloss": "wear",
+        "pattern": "add_k"
+      },
+      "nà": {
+        "stem2": "nat",
+        "gloss": "ache",
+        "pattern": "glottal_to_t"
+      },
+      "hngu": {
+        "stem2": "hnguh",
+        "gloss": "see",
+        "pattern": "t_to_h"
+      },
+      "htui": {
+        "stem2": "htuih",
+        "gloss": "bite",
+        "pattern": "t_to_h"
+      },
+      "ip": {
+        "stem2": "ih",
+        "gloss": "sleep",
+        "pattern": "p_to_h"
+      },
+      "shì": {
+        "stem2": "shih",
+        "gloss": "die",
+        "pattern": "open_to_h"
+      },
+      "om": {
+        "stem2": "omh",
+        "gloss": "be/exist",
+        "pattern": "add_h"
+      },
+      "law": {
+        "stem2": "lawk",
+        "gloss": "come",
+        "pattern": "add_k"
+      },
+      "pyein": {
+        "stem2": "pyeink",
+        "gloss": "say/speak",
+        "pattern": "add_k"
+      },
+      "ng'shi": {
+        "stem2": "ng'shik",
+        "gloss": "ask",
+        "pattern": "add_k"
+      },
+      "hmu": {
+        "stem2": "hmuh",
+        "gloss": "see",
+        "pattern": "add_h"
+      },
+      "hmat": {
+        "stem2": "hmath",
+        "gloss": "know",
+        "pattern": "add_h"
+      },
+      "yum": {
+        "stem2": "yumh",
+        "gloss": "believe",
+        "pattern": "add_h"
+      },
+      "tüi": {
+        "stem2": "tüih",
+        "gloss": "make/create",
+        "pattern": "add_h"
+      },
+      "tüisho": {
+        "stem2": "tüishoh",
+        "gloss": "make (completed)",
+        "pattern": "add_h"
+      },
+      "hni": {
+        "stem2": "hnih",
+        "gloss": "love",
+        "pattern": "add_h"
+      },
+      "sih": {
+        "stem2": "sihk",
+        "gloss": "die",
+        "pattern": "add_k"
+      },
+      "ei": {
+        "stem2": "eih",
+        "gloss": "eat",
+        "pattern": "add_h"
+      },
+      "gawk": {
+        "stem2": "gawkh",
+        "gloss": "enter/go_out",
+        "pattern": "add_h"
+      },
+      "hteit": {
+        "stem2": "hteitk",
+        "gloss": "go",
+        "pattern": "add_k"
+      },
+      "dou": {
+        "stem2": "douh",
+        "gloss": "receive",
+        "pattern": "add_h"
+      },
+      "phak": {
+        "stem2": "phakh",
+        "gloss": "catch/get",
+        "pattern": "add_h"
+      },
+      "khang": {
+        "stem2": "khangh",
+        "gloss": "shine",
+        "pattern": "add_h"
+      },
+      "ghin": {
+        "stem2": "ghinh",
+        "gloss": "live",
+        "pattern": "add_h"
+      },
+      "thawh": {
+        "stem2": "thawhk",
+        "gloss": "arise/rise",
+        "pattern": "add_k"
+      },
+      "ng'thein": {
+        "stem2": "ng'theink",
+        "gloss": "tell/inform",
+        "pattern": "add_k"
+      },
+      "guk": {
+        "stem2": "gukh",
+        "gloss": "write",
+        "pattern": "add_h"
+      },
+      "ng'düi": {
+        "stem2": "ng'düih",
+        "gloss": "stand",
+        "pattern": "add_h"
+      },
+      "ng'vai": {
+        "stem2": "ng'vaih",
+        "gloss": "put/throw",
+        "pattern": "add_h"
+      },
+      "htei": {
+        "stem2": "hteih",
+        "gloss": "feed/tend",
+        "pattern": "add_h"
+      },
+      "ng'dang": {
+        "stem2": "ng'dangh",
+        "gloss": "reveal/show",
+        "pattern": "add_h"
+      },
+      "läk": {
+        "stem2": "läkh",
+        "gloss": "follow",
+        "pattern": "add_h"
+      },
+      "shui": {
+        "stem2": "shuih",
+        "gloss": "fish (v)",
+        "pattern": "add_h"
+      },
+      "kai": {
+        "stem2": "kaih",
+        "gloss": "pull/haul",
+        "pattern": "add_h"
+      },
+      "gui": {
+        "stem2": "guih",
+        "gloss": "god/let/earth",
+        "pattern": "add_h"
+      },
+      "cu": {
+        "stem2": "cuh",
+        "gloss": "god/that/light",
+        "pattern": "add_h"
+      },
+      "ka": {
+        "stem2": "kah",
+        "gloss": "i/you/said",
+        "pattern": "add_h"
+      },
+      "chang": {
+        "stem2": "changh",
+        "gloss": "man/god/lord",
+        "pattern": "add_h"
+      },
+      "ciah": {
+        "stem2": "ciah",
+        "gloss": "you/that/god",
+        "pattern": "unknown"
+      },
+      "kyak": {
+        "stem2": "kyah",
+        "gloss": "god/there/day",
+        "pattern": "unknown"
+      },
+      "nei": {
+        "stem2": "neh",
+        "gloss": "i/you/said",
+        "pattern": "unknown"
+      },
+      "ami": {
+        "stem2": "amik",
+        "gloss": "their/his/man",
+        "pattern": "add_k"
+      },
+      "la": {
+        "stem2": "lah",
+        "gloss": "god/that/there",
+        "pattern": "add_h"
+      },
+      "cun": {
+        "stem2": "cuh",
+        "gloss": "god/that/earth",
+        "pattern": "unknown"
+      },
+      "phi": {
+        "stem2": "phih",
+        "gloss": "that/tree/you",
+        "pattern": "add_h"
+      },
+      "ba": {
+        "stem2": "bah",
+        "gloss": "he/you/after",
+        "pattern": "add_h"
+      },
+      "ang": {
+        "stem2": "angh",
+        "gloss": "he/said/lord",
+        "pattern": "add_h"
+      },
+      "ning": {
+        "stem2": "ningh",
+        "gloss": "you/will/shall",
+        "pattern": "add_h"
+      },
+      "hta": {
+        "stem2": "htah",
+        "gloss": "fathered/he/his",
+        "pattern": "add_h"
+      },
+      "sak": {
+        "stem2": "sah",
+        "gloss": "god/earth/that",
+        "pattern": "unknown"
+      },
+      "avan": {
+        "stem2": "avanh",
+        "gloss": "every/god/earth",
+        "pattern": "add_h"
+      },
+      "püi": {
+        "stem2": "püh",
+        "gloss": "that/they/his",
+        "pattern": "unknown"
+      },
+      "mäih": {
+        "stem2": "mäih",
+        "gloss": "lord/man/that",
+        "pattern": "unknown"
+      },
+      "bi": {
+        "stem2": "bih",
+        "gloss": "you/your/said",
+        "pattern": "add_h"
+      },
+      "khaw": {
+        "stem2": "khawh",
+        "gloss": "their/land/from",
+        "pattern": "add_h"
+      },
+      "kyasei": {
+        "stem2": "kyaseih",
+        "gloss": "you/his/god",
+        "pattern": "add_h"
+      },
+      "lawk": {
+        "stem2": "lawh",
+        "gloss": "earth/his/that",
+        "pattern": "unknown"
+      },
+      "pyen": {
+        "stem2": "pyenh",
+        "gloss": "you/shall/that",
+        "pattern": "add_h"
+      },
+      "kawn": {
+        "stem2": "kawh",
+        "gloss": "god/let/he",
+        "pattern": "unknown"
+      },
+      "khan": {
+        "stem2": "khah",
+        "gloss": "earth/god/it",
+        "pattern": "unknown"
+      },
+      "ak": {
+        "stem2": "akh",
+        "gloss": "god/that/all",
+        "pattern": "add_h"
+      },
+      "israel": {
+        "stem2": "israelh",
+        "gloss": "israel/jacob/they",
+        "pattern": "add_h"
+      },
+      "neta": {
+        "stem2": "netah",
+        "gloss": "god/that/man",
+        "pattern": "add_h"
+      },
+      "mang": {
+        "stem2": "mangh",
+        "gloss": "lord/his/he",
+        "pattern": "add_h"
+      },
+      "ungka": {
+        "stem2": "ungkah",
+        "gloss": "you/from/shall",
+        "pattern": "add_h"
+      },
+      "ghangpughang": {
+        "stem2": "ghangpughangh",
+        "gloss": "king/his/valley",
+        "pattern": "add_h"
+      },
+      "tumat": {
+        "stem2": "tumath",
+        "gloss": "three/years/old",
+        "pattern": "add_h"
+      },
+      "mi": {
+        "stem2": "mik",
+        "gloss": "let/us/said",
+        "pattern": "add_k"
+      },
+      "kya": {
+        "stem2": "kyah",
+        "gloss": "that/will/his",
+        "pattern": "add_h"
+      },
+      "cik": {
+        "stem2": "cih",
+        "gloss": "you/said/i",
+        "pattern": "unknown"
+      },
+      "tu": {
+        "stem2": "tuh",
+        "gloss": "that/my/she",
+        "pattern": "add_h"
+      },
+      "cine": {
+        "stem2": "cineh",
+        "gloss": "you/shall/i",
+        "pattern": "add_h"
+      },
+      "nangmi": {
+        "stem2": "nangmih",
+        "gloss": "you/your/shall",
+        "pattern": "add_h"
+      },
+      "pek": {
+        "stem2": "peh",
+        "gloss": "you/i/your",
+        "pattern": "unknown"
+      },
+      "mawng": {
+        "stem2": "mawngh",
+        "gloss": "his/these/that",
+        "pattern": "add_h"
+      },
+      "kami": {
+        "stem2": "kamik",
+        "gloss": "you/us/said",
+        "pattern": "add_k"
+      },
+      "shin": {
+        "stem2": "shih",
+        "gloss": "you/i/said",
+        "pattern": "unknown"
+      },
+      "hteh": {
+        "stem2": "hteh",
+        "gloss": "you/your/his",
+        "pattern": "unknown"
+      },
+      "vä": {
+        "stem2": "väk",
+        "gloss": "you/them/me",
+        "pattern": "add_k"
+      },
+      "ng’thu": {
+        "stem2": "ng’thuh",
+        "gloss": "their/lord/i",
+        "pattern": "add_h"
+      },
+      "hnüüp": {
+        "stem2": "hnüüph",
+        "gloss": "day/god/that",
+        "pattern": "add_h"
+      },
+      "phäh": {
+        "stem2": "phäh",
+        "gloss": "their/by/every",
+        "pattern": "unknown"
+      },
+      "täng": {
+        "stem2": "tängh",
+        "gloss": "with/as/their",
+        "pattern": "add_h"
+      },
+      "im": {
+        "stem2": "imh",
+        "gloss": "ark/you/with",
+        "pattern": "add_h"
+      },
+      "ma": {
+        "stem2": "mah",
+        "gloss": "you/lord/said",
+        "pattern": "add_h"
+      },
+      "gaw": {
+        "stem2": "gawh",
+        "gloss": "city/he/his",
+        "pattern": "add_h"
+      },
+      "ni": {
+        "stem2": "nih",
+        "gloss": "his/they/wife",
+        "pattern": "add_h"
+      },
+      "goi": {
+        "stem2": "goh",
+        "gloss": "his/their/father",
+        "pattern": "unknown"
+      },
+      "phung": {
+        "stem2": "phungh",
+        "gloss": "he/you/earth",
+        "pattern": "add_h"
+      },
+      "ngawn": {
+        "stem2": "ngawh",
+        "gloss": "his/him/me",
+        "pattern": "unknown"
+      },
+      "bik": {
+        "stem2": "bih",
+        "gloss": "you/your/his",
+        "pattern": "unknown"
+      },
+      "tuk": {
+        "stem2": "tuh",
+        "gloss": "you/that/who",
+        "pattern": "unknown"
+      },
+      "nei”": {
+        "stem2": "nei”h",
+        "gloss": "i/you/that",
+        "pattern": "add_h"
+      },
+      "kho": {
+        "stem2": "khoh",
+        "gloss": "you/land/that",
+        "pattern": "add_h"
+      },
+      "mät": {
+        "stem2": "mäh",
+        "gloss": "you/said/let",
+        "pattern": "unknown"
+      },
+      "tui": {
+        "stem2": "tuih",
+        "gloss": "waters/earth/god",
+        "pattern": "add_h"
+      },
+      "hlü": {
+        "stem2": "hlük",
+        "gloss": "that/said/you",
+        "pattern": "add_k"
+      },
+      "pi": {
+        "stem2": "pih",
+        "gloss": "lord/it/you",
+        "pattern": "add_h"
+      },
+      "m’thein": {
+        "stem2": "m’theih",
+        "gloss": "you/he/that",
+        "pattern": "unknown"
+      },
+      "yah": {
+        "stem2": "yah",
+        "gloss": "he/his/when",
+        "pattern": "unknown"
+      },
+      "lam": {
+        "stem2": "lah",
+        "gloss": "lord/east/he",
+        "pattern": "unknown"
+      },
+      "kyong": {
+        "stem2": "kyongh",
+        "gloss": "with/your/his",
+        "pattern": "add_h"
+      },
+      "gah": {
+        "stem2": "gah",
+        "gloss": "you/your/shall",
+        "pattern": "unknown"
+      },
+      "khawihnah": {
+        "stem2": "khawihnah",
+        "gloss": "his/lord/there",
+        "pattern": "unknown"
+      },
+      "hei": {
+        "stem2": "heik",
+        "gloss": "his/he/you",
+        "pattern": "add_k"
+      },
+      "taigü": {
+        "stem2": "taigüh",
+        "gloss": "you/that/your",
+        "pattern": "add_h"
+      },
+      "ngaih": {
+        "stem2": "ngaih",
+        "gloss": "i/lord/me",
+        "pattern": "unknown"
+      },
+      "hmawk": {
+        "stem2": "hmawkh",
+        "gloss": "you/i/your",
+        "pattern": "add_h"
+      },
+      "pakhui": {
+        "stem2": "pakhuih",
+        "gloss": "their/you/will",
+        "pattern": "add_h"
+      },
+      "hnumi": {
+        "stem2": "hnumih",
+        "gloss": "he/man/you",
+        "pattern": "add_h"
+      },
+      "van": {
+        "stem2": "vah",
+        "gloss": "his/you/all",
+        "pattern": "unknown"
+      },
+      "ngai": {
+        "stem2": "ngaih",
+        "gloss": "you/his/i",
+        "pattern": "add_h"
+      },
+      "hning": {
+        "stem2": "hningh",
+        "gloss": "you/shall/said",
+        "pattern": "add_h"
+      },
+      "david": {
+        "stem2": "davidh",
+        "gloss": "david/his/saul",
+        "pattern": "add_h"
+      },
+      "ng’yak": {
+        "stem2": "ng’yah",
+        "gloss": "i/said/will",
+        "pattern": "unknown"
+      },
+      "amät": {
+        "stem2": "amäth",
+        "gloss": "him/his/she",
+        "pattern": "add_h"
+      },
+      "jerusalem": {
+        "stem2": "jerusalemh",
+        "gloss": "jerusalem/king/david",
+        "pattern": "add_h"
+      },
+      "thukhän": {
+        "stem2": "thukhänh",
+        "gloss": "you/covenant/shall",
+        "pattern": "add_h"
+      },
+      "aw": {
+        "stem2": "awh",
+        "gloss": "i/you/said",
+        "pattern": "add_h"
+      },
+      "cicu": {
+        "stem2": "cicuh",
+        "gloss": "i/that/his",
+        "pattern": "add_h"
+      },
+      "pha": {
+        "stem2": "phah",
+        "gloss": "i/you/it",
+        "pattern": "add_h"
+      },
+      "ät": {
+        "stem2": "äth",
+        "gloss": "he/month/first",
+        "pattern": "add_h"
+      },
+      "sä": {
+        "stem2": "säh",
+        "gloss": "let/you/may",
+        "pattern": "add_h"
+      },
+      "bäng": {
+        "stem2": "bängh",
+        "gloss": "i/he/not",
+        "pattern": "add_h"
+      },
+      "judah": {
+        "stem2": "judah",
+        "gloss": "she/he/judah",
+        "pattern": "unknown"
+      },
+      "hlawt": {
+        "stem2": "hlawh",
+        "gloss": "i/you/it",
+        "pattern": "unknown"
+      },
+      "moses": {
+        "stem2": "mosesh",
+        "gloss": "he/moses/his",
+        "pattern": "add_h"
+      },
+      "ghing": {
+        "stem2": "ghingh",
+        "gloss": "tree/god/lord",
+        "pattern": "add_h"
+      },
+      "katnak": {
+        "stem2": "katnakh",
+        "gloss": "you/shall/it",
+        "pattern": "add_h"
+      },
+      "päng": {
+        "stem2": "pängh",
+        "gloss": "you/that/i",
+        "pattern": "add_h"
+      },
+      "douthak": {
+        "stem2": "douthakh",
+        "gloss": "shall/you/your",
+        "pattern": "add_h"
+      },
+      "acun": {
+        "stem2": "acunh",
+        "gloss": "it/shall/that",
+        "pattern": "add_h"
+      },
+      "kaa": {
+        "stem2": "kaah",
+        "gloss": "king/with/chedorlaomer",
+        "pattern": "add_h"
+      },
+      "ng’tuk": {
+        "stem2": "ng’tuh",
+        "gloss": "king/with/lord",
+        "pattern": "unknown"
+      },
+      "aih": {
+        "stem2": "aih",
+        "gloss": "my/land/them",
+        "pattern": "unknown"
+      },
+      "thu": {
+        "stem2": "thuh",
+        "gloss": "you/moses/with",
+        "pattern": "add_h"
+      },
+      "m’lung": {
+        "stem2": "m’lungh",
+        "gloss": "i/you/he",
+        "pattern": "add_h"
+      },
+      "m’hni": {
+        "stem2": "m’hnih",
+        "gloss": "you/me/i",
+        "pattern": "add_h"
+      },
+      "hmuk": {
+        "stem2": "hmuh",
+        "gloss": "his/him/behold",
+        "pattern": "unknown"
+      },
+      "taigüim": {
+        "stem2": "taigüimh",
+        "gloss": "house/lord/your",
+        "pattern": "add_h"
+      },
+      "bawi": {
+        "stem2": "bawh",
+        "gloss": "my/master/lord",
+        "pattern": "unknown"
+      },
+      "man": {
+        "stem2": "mah",
+        "gloss": "you/i/by",
+        "pattern": "unknown"
+      },
+      "egypt": {
+        "stem2": "egypth",
+        "gloss": "egypt/he/they",
+        "pattern": "add_h"
+      },
+      "yawp": {
+        "stem2": "yawph",
+        "gloss": "earth/that/i",
+        "pattern": "add_h"
+      },
+      "pei": {
+        "stem2": "peik",
+        "gloss": "as/he/his",
+        "pattern": "add_k"
+      },
+      "hmun": {
+        "stem2": "hmuh",
+        "gloss": "lord/you/it",
+        "pattern": "unknown"
+      },
+      "khü": {
+        "stem2": "khük",
+        "gloss": "said/you/his",
+        "pattern": "add_k"
+      },
+      "uk": {
+        "stem2": "ukh",
+        "gloss": "over/you/land",
+        "pattern": "add_h"
+      },
+      "kut": {
+        "stem2": "kuh",
+        "gloss": "his/hand/him",
+        "pattern": "unknown"
+      },
+      "hmuh": {
+        "stem2": "hmuh",
+        "gloss": "i/you/my",
+        "pattern": "unknown"
+      },
+      "tha": {
+        "stem2": "thah",
+        "gloss": "you/shall/that",
+        "pattern": "add_h"
+      },
+      "sui": {
+        "stem2": "suh",
+        "gloss": "he/called/god",
+        "pattern": "unknown"
+      },
+      "lung": {
+        "stem2": "lungh",
+        "gloss": "you/this/heap",
+        "pattern": "add_h"
+      },
+      "ming": {
+        "stem2": "mingh",
+        "gloss": "he/every/name",
+        "pattern": "add_h"
+      },
+      "ng’ya": {
+        "stem2": "ng’yah",
+        "gloss": "his/he/heard",
+        "pattern": "add_h"
+      },
+      "gakap": {
+        "stem2": "gakaph",
+        "gloss": "his/all/them",
+        "pattern": "add_h"
+      },
+      "pyang": {
+        "stem2": "pyangh",
+        "gloss": "god/he/lord",
+        "pattern": "add_h"
+      },
+      "“kei": {
+        "stem2": "“keih",
+        "gloss": "you/i/said",
+        "pattern": "add_h"
+      },
+      "sing": {
+        "stem2": "singh",
+        "gloss": "tree/you/that",
+        "pattern": "add_h"
+      },
+      "thumkhän": {
+        "stem2": "thumkhäh",
+        "gloss": "you/as/lord",
+        "pattern": "unknown"
+      },
+      "hnu": {
+        "stem2": "hnuh",
+        "gloss": "shall/you/he",
+        "pattern": "add_h"
+      },
+      "yeikyai": {
+        "stem2": "yeikyaih",
+        "gloss": "offering/with/it",
+        "pattern": "add_h"
+      },
+      "mei": {
+        "stem2": "meh",
+        "gloss": "it/fire/out",
+        "pattern": "unknown"
+      },
+      "gha": {
+        "stem2": "ghah",
+        "gloss": "i/ten/your",
+        "pattern": "add_h"
+      },
+      "bä": {
+        "stem2": "bäk",
+        "gloss": "i/you/said",
+        "pattern": "add_k"
+      },
+      "khin": {
+        "stem2": "khih",
+        "gloss": "you/i/he",
+        "pattern": "unknown"
+      },
+      "khanpughi": {
+        "stem2": "khanpughih",
+        "gloss": "you/gods/that",
+        "pattern": "add_h"
+      },
+      "akda": {
+        "stem2": "akdah",
+        "gloss": "you/i/will",
+        "pattern": "add_h"
+      },
+      "en": {
+        "stem2": "enh",
+        "gloss": "not/you/i",
+        "pattern": "add_h"
+      },
+      "pyan": {
+        "stem2": "pyah",
+        "gloss": "they/it/you",
+        "pattern": "unknown"
+      },
+      "khomdek": {
+        "stem2": "khomdekh",
+        "gloss": "you/earth/god",
+        "pattern": "add_h"
+      },
+      "changshäm": {
+        "stem2": "changshämh",
+        "gloss": "said/his/your",
+        "pattern": "add_h"
+      },
+      "gawnu": {
+        "stem2": "gawnuh",
+        "gloss": "as/his/direction",
+        "pattern": "add_h"
+      },
+      "thum": {
+        "stem2": "thuh",
+        "gloss": "he/three/years",
+        "pattern": "unknown"
+      },
+      "akcang": {
+        "stem2": "akcangh",
+        "gloss": "you/he/i",
+        "pattern": "add_h"
+      },
+      "chu": {
+        "stem2": "chuh",
+        "gloss": "you/his/sons",
+        "pattern": "add_h"
+      },
+      "m’di": {
+        "stem2": "m’dih",
+        "gloss": "i/will/he",
+        "pattern": "add_h"
+      },
+      "tuinu": {
+        "stem2": "tuinuh",
+        "gloss": "that/i/god",
+        "pattern": "add_h"
+      },
+      "nawng": {
+        "stem2": "nawngh",
+        "gloss": "his/he/that",
+        "pattern": "add_h"
+      },
+      "hun": {
+        "stem2": "hunh",
+        "gloss": "you/lord/hand",
+        "pattern": "add_h"
+      },
+      "m’htei": {
+        "stem2": "m’hteih",
+        "gloss": "you/with/me",
+        "pattern": "add_h"
+      },
+      "huham": {
+        "stem2": "huhamh",
+        "gloss": "you/shall/your",
+        "pattern": "add_h"
+      },
+      "hnih": {
+        "stem2": "hnih",
+        "gloss": "two/he/you",
+        "pattern": "unknown"
+      },
+      "khäm": {
+        "stem2": "khäh",
+        "gloss": "you/land/your",
+        "pattern": "unknown"
+      },
+      "teng": {
+        "stem2": "tengh",
+        "gloss": "that/god/it",
+        "pattern": "add_h"
+      },
+      "ana": {
+        "stem2": "anak",
+        "gloss": "him/his/she",
+        "pattern": "add_k"
+      },
+      "tuhbäi": {
+        "stem2": "tuhbäih",
+        "gloss": "i/you/said",
+        "pattern": "add_h"
+      },
+      "näng": {
+        "stem2": "nängh",
+        "gloss": "said/that/he",
+        "pattern": "add_h"
+      },
+      "ga": {
+        "stem2": "gah",
+        "gloss": "you/your/shall",
+        "pattern": "add_h"
+      },
+      "dawng": {
+        "stem2": "dawngh",
+        "gloss": "you/cubits/said",
+        "pattern": "add_h"
+      },
+      "m’kyuk": {
+        "stem2": "m’kyukh",
+        "gloss": "i/will/you",
+        "pattern": "add_h"
+      },
+      "ngawi": {
+        "stem2": "ngawh",
+        "gloss": "you/morning/it",
+        "pattern": "unknown"
+      },
+      "nau": {
+        "stem2": "nah",
+        "gloss": "brother/his/said",
+        "pattern": "unknown"
+      },
+      "khui": {
+        "stem2": "khuih",
+        "gloss": "you/him/your",
+        "pattern": "add_h"
+      },
+      "angtäi": {
+        "stem2": "angtäih",
+        "gloss": "shall/you/lord",
+        "pattern": "add_h"
+      },
+      "sik": {
+        "stem2": "sih",
+        "gloss": "all/died/you",
+        "pattern": "unknown"
+      },
+      "lut": {
+        "stem2": "luh",
+        "gloss": "with/his/you",
+        "pattern": "unknown"
+      },
+      "ng’düi": {
+        "stem2": "ng’düih",
+        "gloss": "he/his/behold",
+        "pattern": "add_h"
+      },
+      "dang": {
+        "stem2": "dangh",
+        "gloss": "you/god/lord",
+        "pattern": "add_h"
+      },
+      "cha": {
+        "stem2": "chah",
+        "gloss": "month/my/said",
+        "pattern": "add_h"
+      },
+      "m’kawt": {
+        "stem2": "m’kawh",
+        "gloss": "you/that/door",
+        "pattern": "unknown"
+      },
+      "khankho": {
+        "stem2": "khankhoh",
+        "gloss": "lord/you/heavens",
+        "pattern": "add_h"
+      },
+      "si": {
+        "stem2": "sih",
+        "gloss": "you/that/shall",
+        "pattern": "add_h"
+      },
+      "kyih": {
+        "stem2": "kyih",
+        "gloss": "you/i/god",
+        "pattern": "unknown"
+      },
+      "chih": {
+        "stem2": "chih",
+        "gloss": "he/day/month",
+        "pattern": "unknown"
+      },
+      "khüt": {
+        "stem2": "khüth",
+        "gloss": "as/his/from",
+        "pattern": "add_h"
+      },
+      "ngui": {
+        "stem2": "nguih",
+        "gloss": "money/he/your",
+        "pattern": "add_h"
+      },
+      "thei": {
+        "stem2": "theih",
+        "gloss": "you/i/said",
+        "pattern": "add_h"
+      },
+      "kum": {
+        "stem2": "kuh",
+        "gloss": "years/your/his",
+        "pattern": "unknown"
+      },
+      "düihpüi": {
+        "stem2": "düihpüih",
+        "gloss": "me/not/his",
+        "pattern": "add_h"
+      },
+      "khrit": {
+        "stem2": "khrith",
+        "gloss": "jesus/christ/you",
+        "pattern": "add_h"
+      },
+      "ap": {
+        "stem2": "aph",
+        "gloss": "you/that/i",
+        "pattern": "add_h"
+      },
+      "lei": {
+        "stem2": "leh",
+        "gloss": "years/his/i",
+        "pattern": "unknown"
+      },
+      "shüm": {
+        "stem2": "shüh",
+        "gloss": "you/will/this",
+        "pattern": "unknown"
+      },
+      "ng’vai": {
+        "stem2": "ng’vah",
+        "gloss": "his/pharaoh/he",
+        "pattern": "unknown"
+      },
+      "hlük": {
+        "stem2": "hlükh",
+        "gloss": "you/me/said",
+        "pattern": "add_h"
+      },
+      "be": {
+        "stem2": "bek",
+        "gloss": "my/earth/said",
+        "pattern": "add_k"
+      },
+      "hma": {
+        "stem2": "hmak",
+        "gloss": "five/i/there",
+        "pattern": "add_k"
+      },
+      "m’khih": {
+        "stem2": "m’khih",
+        "gloss": "you/shall/offering",
+        "pattern": "unknown"
+      },
+      "mä": {
+        "stem2": "mäh",
+        "gloss": "he/said/then",
+        "pattern": "add_h"
+      },
+      "htome": {
+        "stem2": "htomeh",
+        "gloss": "them/your/you",
+        "pattern": "add_h"
+      },
+      "khawh": {
+        "stem2": "khawh",
+        "gloss": "he/his/all",
+        "pattern": "unknown"
+      },
+      "akni": {
+        "stem2": "aknih",
+        "gloss": "you/me/that",
+        "pattern": "add_h"
+      },
+      "ghui": {
+        "stem2": "ghuih",
+        "gloss": "gold/shall/you",
+        "pattern": "add_h"
+      },
+      "m’dek": {
+        "stem2": "m’dekh",
+        "gloss": "you/ground/he",
+        "pattern": "add_h"
+      },
+      "yei": {
+        "stem2": "yeih",
+        "gloss": "god/that/he",
+        "pattern": "add_h"
+      },
+      "pum": {
+        "stem2": "pumh",
+        "gloss": "shall/it/you",
+        "pattern": "add_h"
+      },
+      "ngäng": {
+        "stem2": "ngängh",
+        "gloss": "him/lord/them",
+        "pattern": "add_h"
+      },
+      "düng": {
+        "stem2": "düngh",
+        "gloss": "you/i/me",
+        "pattern": "add_h"
+      },
+      "m’lau": {
+        "stem2": "m’lauk",
+        "gloss": "he/said/me",
+        "pattern": "add_k"
+      },
+      "pami": {
+        "stem2": "pamih",
+        "gloss": "his/fathered/shall",
+        "pattern": "add_h"
+      },
+      "ng’shi": {
+        "stem2": "ng’shih",
+        "gloss": "said/he/you",
+        "pattern": "add_h"
+      },
+      "ghü": {
+        "stem2": "ghüh",
+        "gloss": "i/that/you",
+        "pattern": "add_h"
+      },
+      "k’bäi": {
+        "stem2": "k’bäih",
+        "gloss": "i/him/you",
+        "pattern": "add_h"
+      },
+      "ca": {
+        "stem2": "cah",
+        "gloss": "book/you/words",
+        "pattern": "add_h"
+      },
+      "hmaw": {
+        "stem2": "hmawk",
+        "gloss": "god/boy/from",
+        "pattern": "add_k"
+      },
+      "hnungtuk": {
+        "stem2": "hnungtukh",
+        "gloss": "against/you/lord",
+        "pattern": "add_h"
+      },
+      "uknak": {
+        "stem2": "uknakh",
+        "gloss": "tent/covering/shall",
+        "pattern": "add_h"
+      },
+      "abi": {
+        "stem2": "abih",
+        "gloss": "shall/he/lord",
+        "pattern": "add_h"
+      },
+      "mah": {
+        "stem2": "mah",
+        "gloss": "their/your/his",
+        "pattern": "unknown"
+      },
+      "co": {
+        "stem2": "coh",
+        "gloss": "there/altar/built",
+        "pattern": "add_h"
+      },
+      "amshah": {
+        "stem2": "amshah",
+        "gloss": "with/you/it",
+        "pattern": "unknown"
+      },
+      "m’lungshe": {
+        "stem2": "m’lungshek",
+        "gloss": "you/your/he",
+        "pattern": "add_k"
+      },
+      "“shin": {
+        "stem2": "“shinh",
+        "gloss": "said/this/my",
+        "pattern": "add_h"
+      },
+      "ge": {
+        "stem2": "gek",
+        "gloss": "his/lord/from",
+        "pattern": "add_k"
+      },
+      "nam": {
+        "stem2": "nah",
+        "gloss": "you/your/with",
+        "pattern": "unknown"
+      },
+      "hlüngtai": {
+        "stem2": "hlüngtaih",
+        "gloss": "god/i/you",
+        "pattern": "add_h"
+      },
+      "thüi": {
+        "stem2": "thüih",
+        "gloss": "his/i/him",
+        "pattern": "add_h"
+      },
+      "phia": {
+        "stem2": "phiat",
+        "gloss": "years/his/hundred",
+        "pattern": "unknown"
+      },
+      "güt": {
+        "stem2": "güth",
+        "gloss": "that/you/so",
+        "pattern": "add_h"
+      },
+      "peit": {
+        "stem2": "peith",
+        "gloss": "my/he/you",
+        "pattern": "add_h"
+      },
+      "“nang": {
+        "stem2": "“nangh",
+        "gloss": "you/said/me",
+        "pattern": "add_h"
+      },
+      "khäta": {
+        "stem2": "khätah",
+        "gloss": "said/his/he",
+        "pattern": "add_h"
+      },
+      "awk": {
+        "stem2": "awh",
+        "gloss": "he/drink/your",
+        "pattern": "unknown"
+      },
+      "“a": {
+        "stem2": "“ah",
+        "gloss": "you/said/me",
+        "pattern": "add_h"
+      },
+      "sapyit": {
+        "stem2": "sapyith",
+        "gloss": "his/you/shall",
+        "pattern": "add_h"
+      },
+      "akshe": {
+        "stem2": "akshek",
+        "gloss": "you/that/evil",
+        "pattern": "add_k"
+      },
+      "sonkiang": {
+        "stem2": "sonkiangh",
+        "gloss": "shall/it/altar",
+        "pattern": "add_h"
+      },
+      "saul": {
+        "stem2": "saulh",
+        "gloss": "saul/you/samuel",
+        "pattern": "add_h"
+      },
+      "m’dang": {
+        "stem2": "m’dangh",
+        "gloss": "you/shall/lord",
+        "pattern": "add_h"
+      },
+      "yuk": {
+        "stem2": "yukh",
+        "gloss": "lord/him/it",
+        "pattern": "add_h"
+      },
+      "tün": {
+        "stem2": "tüh",
+        "gloss": "you/shall/that",
+        "pattern": "unknown"
+      },
+      "phli": {
+        "stem2": "phlih",
+        "gloss": "days/i/that",
+        "pattern": "add_h"
+      },
+      "nu": {
+        "stem2": "nut",
+        "gloss": "i/you/hail",
+        "pattern": "unknown"
+      },
+      "ng’shon": {
+        "stem2": "ng’shonh",
+        "gloss": "you/your/god",
+        "pattern": "add_h"
+      },
+      "m’cäi": {
+        "stem2": "m’cäih",
+        "gloss": "you/he/that",
+        "pattern": "add_h"
+      },
+      "pa": {
+        "stem2": "pah",
+        "gloss": "father/their/she",
+        "pattern": "add_h"
+      },
+      "jakob": {
+        "stem2": "jakobh",
+        "gloss": "jacob/his/esau",
+        "pattern": "add_h"
+      },
+      "ta": {
+        "stem2": "tah",
+        "gloss": "you/said/him",
+        "pattern": "add_h"
+      },
+      "uktu": {
+        "stem2": "uktuh",
+        "gloss": "you/over/shall",
+        "pattern": "add_h"
+      },
+      "bum": {
+        "stem2": "buh",
+        "gloss": "shall/your/he",
+        "pattern": "unknown"
+      },
+      "pupa": {
+        "stem2": "pupah",
+        "gloss": "god/you/your",
+        "pattern": "add_h"
+      },
+      "m’htut": {
+        "stem2": "m’htuth",
+        "gloss": "shall/bread/you",
+        "pattern": "add_h"
+      },
+      "pawng": {
+        "stem2": "pawngh",
+        "gloss": "his/they/him",
+        "pattern": "add_h"
+      },
+      "prophet": {
+        "stem2": "propheth",
+        "gloss": "you/that/lord",
+        "pattern": "add_h"
+      },
+      "lak": {
+        "stem2": "lah",
+        "gloss": "you/that/take",
+        "pattern": "unknown"
+      },
+      "theing": {
+        "stem2": "theingh",
+        "gloss": "he/his/that",
+        "pattern": "add_h"
+      },
+      "bekhüt": {
+        "stem2": "bekhüth",
+        "gloss": "lord/your/you",
+        "pattern": "add_h"
+      },
+      "nü": {
+        "stem2": "nüt",
+        "gloss": "you/all/that",
+        "pattern": "unknown"
+      },
+      "yung": {
+        "stem2": "yungh",
+        "gloss": "shall/it/he",
+        "pattern": "add_h"
+      },
+      "maih": {
+        "stem2": "maih",
+        "gloss": "shall/you/that",
+        "pattern": "unknown"
+      },
+      "ng’lung": {
+        "stem2": "ng’lungh",
+        "gloss": "you/i/it",
+        "pattern": "add_h"
+      },
+      "shaitak": {
+        "stem2": "shaitakh",
+        "gloss": "you/i/your",
+        "pattern": "add_h"
+      },
+      "khai”": {
+        "stem2": "khaih",
+        "gloss": "you/i/shall",
+        "pattern": "unknown"
+      },
+      "gup": {
+        "stem2": "guh",
+        "gloss": "it/made/them",
+        "pattern": "unknown"
+      },
+      "m’gein": {
+        "stem2": "m’geinh",
+        "gloss": "i/you/me",
+        "pattern": "add_h"
+      },
+      "bii": {
+        "stem2": "biik",
+        "gloss": "you/i/that",
+        "pattern": "add_k"
+      },
+      "ui": {
+        "stem2": "uih",
+        "gloss": "shall/it/you",
+        "pattern": "add_h"
+      },
+      "aaron": {
+        "stem2": "aaronh",
+        "gloss": "aaron/moses/lord",
+        "pattern": "add_h"
+      },
+      "shüt": {
+        "stem2": "shüh",
+        "gloss": "his/your/you",
+        "pattern": "unknown"
+      },
+      "htük": {
+        "stem2": "htükh",
+        "gloss": "his/he/said",
+        "pattern": "add_h"
+      },
+      "pigaw": {
+        "stem2": "pigawh",
+        "gloss": "their/shall/he",
+        "pattern": "add_h"
+      },
+      "levit": {
+        "stem2": "levith",
+        "gloss": "levites/shall/tabernacle",
+        "pattern": "add_h"
+      },
+      "ci”": {
+        "stem2": "cih",
+        "gloss": "you/i/not",
+        "pattern": "unknown"
+      },
+      "phäi": {
+        "stem2": "phäih",
+        "gloss": "brother/he/you",
+        "pattern": "add_h"
+      },
+      "cheishoh": {
+        "stem2": "cheishoh",
+        "gloss": "he/his/it",
+        "pattern": "unknown"
+      },
+      "cawh": {
+        "stem2": "cawh",
+        "gloss": "you/make/it",
+        "pattern": "unknown"
+      },
+      "theingcim": {
+        "stem2": "theingcimh",
+        "gloss": "shall/it/you",
+        "pattern": "add_h"
+      },
+      "pang": {
+        "stem2": "pangh",
+        "gloss": "you/his/that",
+        "pattern": "add_h"
+      },
+      "pumsa": {
+        "stem2": "pumsah",
+        "gloss": "shall/you/unclean",
+        "pattern": "add_h"
+      },
+      "htang": {
+        "stem2": "htangh",
+        "gloss": "behold/seven/ears",
+        "pattern": "add_h"
+      },
+      "mik": {
+        "stem2": "mikh",
+        "gloss": "your/you/shall",
+        "pattern": "add_h"
+      },
+      "chuih": {
+        "stem2": "chuih",
+        "gloss": "you/shall/your",
+        "pattern": "unknown"
+      },
+      "khätah": {
+        "stem2": "khätah",
+        "gloss": "him/he/with",
+        "pattern": "unknown"
+      },
+      "k’täm": {
+        "stem2": "k’täh",
+        "gloss": "them/you/his",
+        "pattern": "unknown"
+      },
+      "k’pang": {
+        "stem2": "k’pangh",
+        "gloss": "you/his/lord",
+        "pattern": "add_h"
+      },
+      "gai": {
+        "stem2": "gaih",
+        "gloss": "your/he/shall",
+        "pattern": "add_h"
+      },
+      "ng’shik": {
+        "stem2": "ng’shih",
+        "gloss": "said/you/i",
+        "pattern": "unknown"
+      },
+      "abraham": {
+        "stem2": "abrahamh",
+        "gloss": "abraham/said/shall",
+        "pattern": "add_h"
+      },
+      "hlawk": {
+        "stem2": "hlawh",
+        "gloss": "you/i/said",
+        "pattern": "unknown"
+      },
+      "bilawh": {
+        "stem2": "bilawh",
+        "gloss": "shall/you/he",
+        "pattern": "unknown"
+      },
+      "theingthap": {
+        "stem2": "theingthaph",
+        "gloss": "shall/priest/him",
+        "pattern": "add_h"
+      },
+      "kyum": {
+        "stem2": "kyumh",
+        "gloss": "down/lord/moses",
+        "pattern": "add_h"
+      },
+      "geit": {
+        "stem2": "geih",
+        "gloss": "you/land/field",
+        "pattern": "unknown"
+      },
+      "khei": {
+        "stem2": "kheih",
+        "gloss": "you/your/them",
+        "pattern": "add_h"
+      },
+      "ng’äi": {
+        "stem2": "ng’äih",
+        "gloss": "i/he/this",
+        "pattern": "add_h"
+      },
+      "akhin": {
+        "stem2": "akhinh",
+        "gloss": "you/your/shall",
+        "pattern": "add_h"
+      },
+      "tak": {
+        "stem2": "tah",
+        "gloss": "you/i/shall",
+        "pattern": "unknown"
+      },
+      "shum": {
+        "stem2": "shuh",
+        "gloss": "you/shall/day",
+        "pattern": "unknown"
+      },
+      "m’htung": {
+        "stem2": "m’htungh",
+        "gloss": "shall/hill/you",
+        "pattern": "add_h"
+      },
+      "solomon": {
+        "stem2": "solomonh",
+        "gloss": "solomon/king/your",
+        "pattern": "add_h"
+      },
+      "mü": {
+        "stem2": "mük",
+        "gloss": "i/flood/that",
+        "pattern": "add_k"
+      },
+      "yaica": {
+        "stem2": "yaicah",
+        "gloss": "shall/you/my",
+        "pattern": "add_h"
+      },
+      "bäi": {
+        "stem2": "bäih",
+        "gloss": "shall/you/it",
+        "pattern": "add_h"
+      },
+      "cäi": {
+        "stem2": "cäih",
+        "gloss": "you/he/him",
+        "pattern": "add_h"
+      },
+      "khopäng": {
+        "stem2": "khopängh",
+        "gloss": "as/land/his",
+        "pattern": "add_h"
+      },
+      "htangshon": {
+        "stem2": "htangshonh",
+        "gloss": "their/you/your",
+        "pattern": "add_h"
+      },
+      "tho": {
+        "stem2": "thoh",
+        "gloss": "his/he/they",
+        "pattern": "add_h"
+      },
+      "she": {
+        "stem2": "sheh",
+        "gloss": "he/said/i",
+        "pattern": "add_h"
+      },
+      "jew": {
+        "stem2": "jewh",
+        "gloss": "they/jews/that",
+        "pattern": "add_h"
+      },
+      "m’gäi": {
+        "stem2": "m’gäih",
+        "gloss": "you/lord/are",
+        "pattern": "add_h"
+      },
+      "paul": {
+        "stem2": "paulh",
+        "gloss": "paul/they/he",
+        "pattern": "add_h"
+      },
+      "te": {
+        "stem2": "teh",
+        "gloss": "you/his/i",
+        "pattern": "add_h"
+      },
+      "ng’hlat": {
+        "stem2": "ng’hlah",
+        "gloss": "your/you/shall",
+        "pattern": "unknown"
+      },
+      "ih": {
+        "stem2": "ihh",
+        "gloss": "with/i/that",
+        "pattern": "unknown"
+      },
+      "hmai": {
+        "stem2": "hmaih",
+        "gloss": "face/he/said",
+        "pattern": "add_h"
+      },
+      "kyap": {
+        "stem2": "kyah",
+        "gloss": "his/wept/he",
+        "pattern": "unknown"
+      },
+      "hriham": {
+        "stem2": "hrihamh",
+        "gloss": "i/will/blessed",
+        "pattern": "add_h"
+      },
+      "m’hnüt": {
+        "stem2": "m’hnüth",
+        "gloss": "you/shall/lord",
+        "pattern": "add_h"
+      },
+      "hnim": {
+        "stem2": "hnih",
+        "gloss": "them/you/lord",
+        "pattern": "unknown"
+      },
+      "ng’shäu": {
+        "stem2": "ng’shäuh",
+        "gloss": "shall/priest/it",
+        "pattern": "add_h"
+      },
+      "nik": {
+        "stem2": "nih",
+        "gloss": "with/you/shall",
+        "pattern": "unknown"
+      },
+      "ng’pyi": {
+        "stem2": "ng’pyih",
+        "gloss": "all/when/land",
+        "pattern": "add_h"
+      },
+      "phu": {
+        "stem2": "phuh",
+        "gloss": "he/him/that",
+        "pattern": "add_h"
+      },
+      "“ka": {
+        "stem2": "“kah",
+        "gloss": "said/i/my",
+        "pattern": "add_h"
+      },
+      "tüih": {
+        "stem2": "tüih",
+        "gloss": "you/me/him",
+        "pattern": "unknown"
+      },
+      "“cun": {
+        "stem2": "“cunh",
+        "gloss": "said/you/him",
+        "pattern": "add_h"
+      },
+      "“na": {
+        "stem2": "“nah",
+        "gloss": "you/said/your",
+        "pattern": "add_h"
+      },
+      "ghit": {
+        "stem2": "ghith",
+        "gloss": "he/his/your",
+        "pattern": "add_h"
+      },
+      "aa": {
+        "stem2": "aat",
+        "gloss": "you/lord/shall",
+        "pattern": "unknown"
+      },
+      "luh": {
+        "stem2": "luh",
+        "gloss": "he/you/shall",
+        "pattern": "unknown"
+      },
+      "cüivai": {
+        "stem2": "cüivaih",
+        "gloss": "you/that/your",
+        "pattern": "add_h"
+      },
+      "k’tha": {
+        "stem2": "k’thah",
+        "gloss": "you/not/shall",
+        "pattern": "add_h"
+      },
+      "bämang": {
+        "stem2": "bämangh",
+        "gloss": "you/his/your",
+        "pattern": "add_h"
+      },
+      "hmuhmat": {
+        "stem2": "hmuhmath",
+        "gloss": "who/with/all",
+        "pattern": "add_h"
+      },
+      "pahta": {
+        "stem2": "pahtah",
+        "gloss": "clans/clan/by",
+        "pattern": "add_h"
+      },
+      "kawt": {
+        "stem2": "kawh",
+        "gloss": "his/with/hand",
+        "pattern": "unknown"
+      },
+      "ng’bum": {
+        "stem2": "ng’buh",
+        "gloss": "you/shall/lord",
+        "pattern": "unknown"
+      },
+      "pawi": {
+        "stem2": "pawih",
+        "gloss": "shall/you/it",
+        "pattern": "add_h"
+      },
+      "dämduh": {
+        "stem2": "dämduh",
+        "gloss": "your/lord/god",
+        "pattern": "unknown"
+      },
+      "hnün": {
+        "stem2": "hnünh",
+        "gloss": "you/his/shall",
+        "pattern": "add_h"
+      },
+      "m’hlüngtai": {
+        "stem2": "m’hlüngtaih",
+        "gloss": "lord/israel/god",
+        "pattern": "add_h"
+      },
+      "gu": {
+        "stem2": "guh",
+        "gloss": "you/he/her",
+        "pattern": "add_h"
+      },
+      "ä”": {
+        "stem2": "ä”h",
+        "gloss": "said/me/my",
+        "pattern": "add_h"
+      },
+      "sang": {
+        "stem2": "sangh",
+        "gloss": "his/lord/that",
+        "pattern": "add_h"
+      },
+      "ng’se": {
+        "stem2": "ng’sek",
+        "gloss": "his/he/shall",
+        "pattern": "add_k"
+      },
+      "da": {
+        "stem2": "dak",
+        "gloss": "you/shall/they",
+        "pattern": "add_k"
+      },
+      "joshua": {
+        "stem2": "joshuah",
+        "gloss": "joshua/moses/son",
+        "pattern": "add_h"
+      },
+      "lä": {
+        "stem2": "läk",
+        "gloss": "shall/it/you",
+        "pattern": "add_k"
+      },
+      "läi": {
+        "stem2": "läih",
+        "gloss": "you/not/will",
+        "pattern": "add_h"
+      },
+      "kat": {
+        "stem2": "kath",
+        "gloss": "shall/it/his",
+        "pattern": "add_h"
+      },
+      "cäicat": {
+        "stem2": "cäicath",
+        "gloss": "you/your/lord",
+        "pattern": "add_h"
+      },
+      "htapa": {
+        "stem2": "htapah",
+        "gloss": "son/you/will",
+        "pattern": "add_h"
+      },
+      "shetkat": {
+        "stem2": "shetkath",
+        "gloss": "you/shall/your",
+        "pattern": "add_h"
+      },
+      "m’theithang": {
+        "stem2": "m’theithangh",
+        "gloss": "you/that/your",
+        "pattern": "add_h"
+      },
+      "apa": {
+        "stem2": "apah",
+        "gloss": "his/father/he",
+        "pattern": "add_h"
+      },
+      "phyawn": {
+        "stem2": "phyawnh",
+        "gloss": "you/it/he",
+        "pattern": "add_h"
+      },
+      "thein": {
+        "stem2": "theih",
+        "gloss": "lord/you/shall",
+        "pattern": "unknown"
+      },
+      "m’taam": {
+        "stem2": "m’taamh",
+        "gloss": "your/you/shall",
+        "pattern": "add_h"
+      },
+      "chah": {
+        "stem2": "chah",
+        "gloss": "will/his/you",
+        "pattern": "unknown"
+      },
+      "api": {
+        "stem2": "apit",
+        "gloss": "you/little/your",
+        "pattern": "unknown"
+      },
+      "düt": {
+        "stem2": "düh",
+        "gloss": "shall/you/his",
+        "pattern": "unknown"
+      },
+      "tä": {
+        "stem2": "täk",
+        "gloss": "shall/you/your",
+        "pattern": "add_k"
+      },
+      "gui-am": {
+        "stem2": "gui-amh",
+        "gloss": "you/who/your",
+        "pattern": "add_h"
+      },
+      "ng’düm": {
+        "stem2": "ng’düh",
+        "gloss": "your/that/he",
+        "pattern": "unknown"
+      },
+      "atäng": {
+        "stem2": "atängh",
+        "gloss": "with/god/his",
+        "pattern": "add_h"
+      },
+      "ahei": {
+        "stem2": "aheih",
+        "gloss": "son/with/them",
+        "pattern": "add_h"
+      },
+      "peter": {
+        "stem2": "peterh",
+        "gloss": "you/from/peter",
+        "pattern": "add_h"
+      },
+      "däm": {
+        "stem2": "däh",
+        "gloss": "he/that/said",
+        "pattern": "unknown"
+      },
+      "tuba": {
+        "stem2": "tubah",
+        "gloss": "his/he/you",
+        "pattern": "add_h"
+      },
+      "tung": {
+        "stem2": "tungh",
+        "gloss": "their/pillars/with",
+        "pattern": "add_h"
+      },
+      "philistin": {
+        "stem2": "philistinh",
+        "gloss": "philistines/from/that",
+        "pattern": "add_h"
+      },
+      "m’shang": {
+        "stem2": "m’shangh",
+        "gloss": "i/said/you",
+        "pattern": "add_h"
+      },
+      "ngaih-tüh": {
+        "stem2": "ngaih-tüh",
+        "gloss": "shall/he/lord",
+        "pattern": "unknown"
+      },
+      "kiak": {
+        "stem2": "kiakk",
+        "gloss": "you/that/my",
+        "pattern": "unknown"
+      },
+      "joseph": {
+        "stem2": "josephh",
+        "gloss": "him/his/he",
+        "pattern": "unknown"
+      },
+      "cawi": {
+        "stem2": "cawih",
+        "gloss": "you/that/your",
+        "pattern": "add_h"
+      },
+      "shi": {
+        "stem2": "shih",
+        "gloss": "you/shall/it",
+        "pattern": "add_h"
+      },
+      "khomhtung": {
+        "stem2": "khomhtungh",
+        "gloss": "your/him/mountain",
+        "pattern": "add_h"
+      },
+      "hnga": {
+        "stem2": "hngah",
+        "gloss": "their/his/him",
+        "pattern": "add_h"
+      },
+      "di": {
+        "stem2": "dih",
+        "gloss": "you/as/your",
+        "pattern": "add_h"
+      },
+      "“nangmi": {
+        "stem2": "“nangmih",
+        "gloss": "you/said/shall",
+        "pattern": "add_h"
+      },
+      "babilonia": {
+        "stem2": "babiloniah",
+        "gloss": "king/babylon/his",
+        "pattern": "add_h"
+      },
+      "tah": {
+        "stem2": "tah",
+        "gloss": "blue/shall/purple",
+        "pattern": "unknown"
+      },
+      "chuk": {
+        "stem2": "chuh",
+        "gloss": "six/day/all",
+        "pattern": "unknown"
+      },
+      "jordan": {
+        "stem2": "jordanh",
+        "gloss": "jordan/lord/land",
+        "pattern": "add_h"
+      },
+      "phyawng": {
+        "stem2": "phyawngh",
+        "gloss": "you/shall/he",
+        "pattern": "add_h"
+      },
+      "ng’düng": {
+        "stem2": "ng’düngh",
+        "gloss": "you/he/his",
+        "pattern": "add_h"
+      },
+      "baw": {
+        "stem2": "bawh",
+        "gloss": "shall/it/sheep",
+        "pattern": "add_h"
+      },
+      "hawi": {
+        "stem2": "hawh",
+        "gloss": "you/said/where",
+        "pattern": "unknown"
+      },
+      "k’aw": {
+        "stem2": "k’awk",
+        "gloss": "sound/said/voice",
+        "pattern": "add_k"
+      },
+      "kha": {
+        "stem2": "khah",
+        "gloss": "every/that/he",
+        "pattern": "add_h"
+      },
+      "shou": {
+        "stem2": "shoh",
+        "gloss": "you/your/that",
+        "pattern": "unknown"
+      },
+      "thawng": {
+        "stem2": "thawngh",
+        "gloss": "he/it/prison",
+        "pattern": "add_h"
+      },
+      "m’cu": {
+        "stem2": "m’cut",
+        "gloss": "he/i/lord",
+        "pattern": "unknown"
+      },
+      "neh": {
+        "stem2": "neh",
+        "gloss": "you/will/i",
+        "pattern": "unknown"
+      },
+      "lu": {
+        "stem2": "luh",
+        "gloss": "his/head/it",
+        "pattern": "add_h"
+      },
+      "vei": {
+        "stem2": "veih",
+        "gloss": "it/two/shall",
+        "pattern": "add_h"
+      },
+      "phiawn": {
+        "stem2": "phiawnh",
+        "gloss": "you/shall/will",
+        "pattern": "add_h"
+      },
+      "vah": {
+        "stem2": "vah",
+        "gloss": "you/your/shall",
+        "pattern": "unknown"
+      },
+      "changpakhui": {
+        "stem2": "changpakhuih",
+        "gloss": "you/nations/your",
+        "pattern": "add_h"
+      },
+      "yak": {
+        "stem2": "yah",
+        "gloss": "you/he/shall",
+        "pattern": "unknown"
+      },
+      "maa": {
+        "stem2": "maah",
+        "gloss": "you/will/your",
+        "pattern": "add_h"
+      },
+      "ng’ui": {
+        "stem2": "ng’uih",
+        "gloss": "him/his/kissed",
+        "pattern": "add_h"
+      },
+      "bühmang": {
+        "stem2": "bühmangh",
+        "gloss": "you/your/lord",
+        "pattern": "add_h"
+      },
+      "shai": {
+        "stem2": "shah",
+        "gloss": "you/with/i",
+        "pattern": "unknown"
+      },
+      "hlüng": {
+        "stem2": "hlüngh",
+        "gloss": "its/shall/cubits",
+        "pattern": "add_h"
+      },
+      "k’thäh": {
+        "stem2": "k’thäh",
+        "gloss": "you/he/that",
+        "pattern": "unknown"
+      },
+      "nah": {
+        "stem2": "nah",
+        "gloss": "you/he/lord",
+        "pattern": "unknown"
+      },
+      "me": {
+        "stem2": "meh",
+        "gloss": "he/flock/that",
+        "pattern": "add_h"
+      },
+      "m’cümhnah": {
+        "stem2": "m’cümhnah",
+        "gloss": "shall/lord/offering",
+        "pattern": "unknown"
+      },
+      "kaw": {
+        "stem2": "kawh",
+        "gloss": "you/shall/gathered",
+        "pattern": "add_h"
+      },
+      "m’tam": {
+        "stem2": "m’tamh",
+        "gloss": "you/lord/your",
+        "pattern": "add_h"
+      },
+      "m’ku": {
+        "stem2": "m’kuk",
+        "gloss": "twenty/shall/years",
+        "pattern": "add_k"
+      },
+      "“chang": {
+        "stem2": "“changh",
+        "gloss": "he/said/not",
+        "pattern": "add_h"
+      },
+      "shungvong": {
+        "stem2": "shungvongh",
+        "gloss": "you/lord/shall",
+        "pattern": "add_h"
+      },
+      "thuuk": {
+        "stem2": "thuukh",
+        "gloss": "it/priest/shall",
+        "pattern": "add_h"
+      },
+      "m’sui": {
+        "stem2": "m’suh",
+        "gloss": "you/shall/his",
+        "pattern": "unknown"
+      },
+      "hman": {
+        "stem2": "hmanh",
+        "gloss": "i/said/shall",
+        "pattern": "add_h"
+      },
+      "gung": {
+        "stem2": "gungh",
+        "gloss": "you/out/your",
+        "pattern": "add_h"
+      },
+      "k’pawih": {
+        "stem2": "k’pawih",
+        "gloss": "shall/that/they",
+        "pattern": "unknown"
+      },
+      "küm": {
+        "stem2": "küh",
+        "gloss": "you/your/it",
+        "pattern": "unknown"
+      },
+      "changshe": {
+        "stem2": "changsheh",
+        "gloss": "you/wicked/shall",
+        "pattern": "add_h"
+      },
+      "johan": {
+        "stem2": "johanh",
+        "gloss": "you/he/john",
+        "pattern": "add_h"
+      },
+      "va": {
+        "stem2": "vah",
+        "gloss": "he/his/them",
+        "pattern": "add_h"
+      },
+      "kyom": {
+        "stem2": "kyomh",
+        "gloss": "he/that/woman",
+        "pattern": "add_h"
+      },
+      "shedam": {
+        "stem2": "shedamh",
+        "gloss": "you/me/she",
+        "pattern": "add_h"
+      },
+      "m’si": {
+        "stem2": "m’sih",
+        "gloss": "its/shall/with",
+        "pattern": "add_h"
+      }
+    },
+    "pronouns": {
+      "kei": {
+        "gloss": "1SG",
+        "person": "1",
+        "number": "sg",
+        "type": "personal"
+      },
+      "nang": {
+        "gloss": "2SG",
+        "person": "2",
+        "number": "sg",
+        "type": "personal"
+      },
+      "ani": {
+        "gloss": "3SG/DL/PL",
+        "person": "3",
+        "number": "sg_dl_pl",
+        "type": "personal"
+      },
+      "ngami": {
+        "gloss": "3PL",
+        "person": "3",
+        "number": "pl",
+        "type": "personal"
+      },
+      "mikmi": {
+        "gloss": "1PL.INCL",
+        "person": "1",
+        "number": "pl",
+        "inclusive": true,
+        "type": "personal"
+      },
+      "keimi": {
+        "gloss": "1PL.EXCL",
+        "person": "1",
+        "number": "pl",
+        "inclusive": false,
+        "type": "personal"
+      },
+      "nami": {
+        "gloss": "2PL",
+        "person": "2",
+        "number": "pl",
+        "type": "personal"
+      },
+      "ka": {
+        "gloss": "my/1SG.POSS",
+        "person": "1",
+        "type": "possessive"
+      },
+      "na": {
+        "gloss": "your/2SG.POSS",
+        "person": "2",
+        "type": "possessive"
+      },
+      "ami": {
+        "gloss": "their/3PL.POSS",
+        "person": "3",
+        "type": "possessive"
+      },
+      "kami": {
+        "gloss": "our/1PL.POSS",
+        "person": "1",
+        "type": "possessive"
+      }
+    },
+    "agreement_particles": {
+      "ka": {
+        "person": "1",
+        "number": "sg",
+        "category": "subject"
+      },
+      "na": {
+        "person": "2",
+        "number": "sg",
+        "category": "object"
+      },
+      "a": {
+        "person": "3",
+        "number": "sg",
+        "category": "subject/genitive"
+      },
+      "ani": {
+        "person": "3",
+        "number": "dl",
+        "category": "subject"
+      },
+      "goi": {
+        "number": "dl",
+        "category": "number"
+      },
+      "gùi": {
+        "number": "pl",
+        "category": "number"
+      }
+    },
+    "postpositions": {
+      "noh": {
+        "gloss": "ERG",
+        "function": "ergative"
+      },
+      "ah": {
+        "gloss": "P/C/GEN",
+        "function": "postposition/complementizer/genitive"
+      },
+      "am": {
+        "gloss": "DAT/GOAL",
+        "function": "dative/goal"
+      },
+      "on": {
+        "gloss": "INST",
+        "function": "instrumental"
+      },
+      "lah": {
+        "gloss": "CONJ",
+        "function": "conjunction"
+      },
+      "naw": {
+        "gloss": "ERG/ABL",
+        "function": "ergative/ablative/source"
+      },
+      "awn": {
+        "gloss": "COM/INST",
+        "function": "comitative/instrumental/with"
+      },
+      "ung": {
+        "gloss": "LOC/IN",
+        "function": "locative/in/at"
+      },
+      "vai": {
+        "gloss": "PURP/BEN",
+        "function": "purpose/benefactive/for"
+      },
+      "kä": {
+        "gloss": "NEG",
+        "function": "negative_marker"
+      },
+      "yah": {
+        "gloss": "TEMP/LOC",
+        "function": "temporal/locative/at/when"
+      },
+      "pei": {
+        "gloss": "LOC/SIDE",
+        "function": "locative/side/near"
+      },
+      "khan": {
+        "gloss": "LOC/IN",
+        "function": "locative/inside"
+      },
+      "ma": {
+        "gloss": "LOC/AT",
+        "function": "locative/at"
+      },
+      "ungka": {
+        "gloss": "ABL",
+        "function": "ablative/from"
+      }
+    },
+    "tense_aspect": {
+      "ci": {
+        "gloss": "NF/PFV",
+        "meaning": "non-future/perfective"
+      },
+      "khai": {
+        "gloss": "FUT",
+        "meaning": "future"
+      },
+      "ung": {
+        "gloss": "COND",
+        "meaning": "conditional"
+      },
+      "ne": {
+        "gloss": "C/AND",
+        "meaning": "complementizer/and"
+      },
+      "pyi": {
+        "gloss": "PAST/PFV",
+        "meaning": "past/perfective"
+      },
+      "man": {
+        "gloss": "PAST.HAB",
+        "meaning": "past_habitual"
+      },
+      "netah": {
+        "gloss": "WHEN/AFTER",
+        "meaning": "temporal/when/after"
+      },
+      "sei": {
+        "gloss": "when/if",
+        "meaning": "conditional/temporal"
+      },
+      "nak": {
+        "gloss": "NOM/GER",
+        "meaning": "nominalizer/gerund"
+      },
+      "ba": {
+        "gloss": "also/again",
+        "meaning": "additive"
+      },
+      "mä": {
+        "gloss": "question_particle",
+        "meaning": "interrogative"
+      },
+      "hlü": {
+        "gloss": "too/very",
+        "meaning": "intensifier"
+      },
+      "gui": {
+        "gloss": "PL",
+        "meaning": "plural_marker"
+      },
+      "goi": {
+        "gloss": "DL",
+        "meaning": "dual_marker"
+      },
+      "güt": {
+        "gloss": "until",
+        "meaning": "temporal_limit"
+      }
+    },
+    "applicatives": {
+      "na": {
+        "gloss": "APPL",
+        "stem": "I"
+      },
+      "nák": {
+        "gloss": "APPL",
+        "stem": "II"
+      }
+    },
+    "connectives": {
+      "ne": {
+        "gloss": "and",
+        "type": "coordinate"
+      },
+      "la": {
+        "gloss": "and/also",
+        "type": "coordinate"
+      },
+      "phi": {
+        "gloss": "but/however",
+        "type": "adversative"
+      },
+      "cun": {
+        "gloss": "then/that",
+        "type": "sequential"
+      },
+      "ciah": {
+        "gloss": "and_then",
+        "type": "sequential"
+      },
+      "cine": {
+        "gloss": "saying_that/QUOT",
+        "type": "quotative"
+      },
+      "cik": {
+        "gloss": "saying/QUOT",
+        "type": "quotative"
+      },
+      "sü": {
+        "gloss": "if",
+        "type": "conditional"
+      }
+    },
+    "common_nouns": {
+      "k'chaang": {
+        "gloss": "man",
+        "category": "human"
+      },
+      "k'hngumi": {
+        "gloss": "woman",
+        "category": "human"
+      },
+      "ak'hmó": {
+        "gloss": "child",
+        "category": "human"
+      },
+      "paapai": {
+        "gloss": "flower",
+        "category": "plant"
+      },
+      "k'khìm": {
+        "gloss": "knife",
+        "category": "tool"
+      },
+      "htung": {
+        "gloss": "stick",
+        "category": "object"
+      },
+      "ui": {
+        "gloss": "dog",
+        "category": "animal"
+      },
+      "vok": {
+        "gloss": "pig",
+        "category": "animal"
+      },
+      "Thu": {
+        "gloss": "Word",
+        "category": "abstract"
+      },
+      "Khanpughi": {
+        "gloss": "God",
+        "category": "divine"
+      },
+      "Bawipa": {
+        "gloss": "Bawipa",
+        "category": "divine"
+      },
+      "chang": {
+        "gloss": "person/man",
+        "category": "human"
+      },
+      "akdei": {
+        "gloss": "light",
+        "category": "natural"
+      },
+      "akhmüp": {
+        "gloss": "darkness",
+        "category": "natural"
+      },
+      "ghinnak": {
+        "gloss": "life",
+        "category": "abstract"
+      },
+      "khomdek": {
+        "gloss": "world",
+        "category": "place"
+      },
+      "kho": {
+        "gloss": "village/place",
+        "category": "place"
+      },
+      "tuinu": {
+        "gloss": "river",
+        "category": "natural"
+      },
+      "tuili": {
+        "gloss": "sea/lake",
+        "category": "natural"
+      },
+      "tui": {
+        "gloss": "water",
+        "category": "natural"
+      },
+      "hta": {
+        "gloss": "child/son",
+        "category": "human"
+      },
+      "htapa": {
+        "gloss": "son/male_child",
+        "category": "human"
+      },
+      "nga": {
+        "gloss": "fish",
+        "category": "animal"
+      },
+      "m'htut": {
+        "gloss": "bread",
+        "category": "food"
+      },
+      "thai": {
+        "gloss": "night",
+        "category": "time"
+      },
+      "khohni": {
+        "gloss": "day",
+        "category": "time"
+      },
+      "ming": {
+        "gloss": "name",
+        "category": "abstract"
+      },
+      "profet": {
+        "gloss": "prophet",
+        "category": "human"
+      },
+      "taigü": {
+        "gloss": "priest",
+        "category": "human"
+      },
+      "Messiah": {
+        "gloss": "Messiah",
+        "category": "divine"
+      },
+      "hleiko": {
+        "gloss": "boat",
+        "category": "object"
+      },
+      "ng'vai": {
+        "gloss": "net",
+        "category": "tool"
+      },
+      "lam": {
+        "gloss": "way/road/path",
+        "category": "place"
+      },
+      "bungpuk": {
+        "gloss": "wilderness",
+        "category": "place"
+      },
+      "tuikem": {
+        "gloss": "shore/bank",
+        "category": "place"
+      },
+      "kut": {
+        "gloss": "hand",
+        "category": "body"
+      },
+      "ma": {
+        "gloss": "face/presence",
+        "category": "body"
+      },
+      "ng'lung": {
+        "gloss": "heart/center",
+        "category": "body"
+      },
+      "ng'thu": {
+        "gloss": "word/speech",
+        "category": "abstract"
+      },
+      "ca": {
+        "gloss": "book",
+        "category": "object"
+      },
+      "uk": {
+        "gloss": "book (classifier)",
+        "category": "classifier"
+      },
+      "düihpüi": {
+        "gloss": "disciple/follower",
+        "category": "human"
+      },
+      "apaw": {
+        "gloss": "companion/other",
+        "category": "human"
+      },
+      "phahnat": {
+        "gloss": "sandal",
+        "category": "clothing"
+      },
+      "yung": {
+        "gloss": "body/flesh",
+        "category": "body"
+      },
+      "bämang": {
+        "gloss": "glory",
+        "category": "abstract"
+      },
+      "thutak": {
+        "gloss": "truth",
+        "category": "abstract"
+      },
+      "geinsei": {
+        "gloss": "grace",
+        "category": "abstract"
+      },
+      "ah": {
+        "gloss": "god/waters/there",
+        "category": "divine"
+      },
+      "nak": {
+        "gloss": "there/god/that",
+        "category": "divine"
+      },
+      "khai": {
+        "gloss": "god/you/it",
+        "category": "divine"
+      },
+      "vai": {
+        "gloss": "that/you/god",
+        "category": "divine"
+      },
+      "cun": {
+        "gloss": "god/that/earth",
+        "category": "divine"
+      },
+      "phi": {
+        "gloss": "that/tree/you",
+        "category": "unknown"
+      },
+      "kei": {
+        "gloss": "i/you/me",
+        "category": "unknown"
+      },
+      "u": {
+        "gloss": "they/let/their",
+        "category": "unknown"
+      },
+      "khanpughi": {
+        "gloss": "god/waters/that",
+        "category": "divine"
+      },
+      "ani": {
+        "gloss": "they/their/then",
+        "category": "unknown"
+      },
+      "i": {
+        "gloss": "you/lord/said",
+        "category": "divine"
+      },
+      "püi": {
+        "gloss": "that/they/his",
+        "category": "unknown"
+      },
+      "mäih": {
+        "gloss": "lord/man/that",
+        "category": "divine"
+      },
+      "bi": {
+        "gloss": "you/your/said",
+        "category": "unknown"
+      },
+      "khaw": {
+        "gloss": "their/land/from",
+        "category": "unknown"
+      },
+      "pyen": {
+        "gloss": "you/shall/that",
+        "category": "unknown"
+      },
+      "nang": {
+        "gloss": "you/your/shall",
+        "category": "unknown"
+      },
+      "kawn": {
+        "gloss": "god/let/he",
+        "category": "divine"
+      },
+      "khan": {
+        "gloss": "earth/god/it",
+        "category": "divine"
+      },
+      "ngami": {
+        "gloss": "they/you/that",
+        "category": "unknown"
+      },
+      "israel": {
+        "gloss": "israel/jacob/they",
+        "category": "unknown"
+      },
+      "ungka": {
+        "gloss": "you/from/shall",
+        "category": "unknown"
+      },
+      "ghangpughang": {
+        "gloss": "king/his/valley",
+        "category": "unknown"
+      },
+      "tumat": {
+        "gloss": "three/years/old",
+        "category": "time"
+      },
+      "ei": {
+        "gloss": "you/that/tree",
+        "category": "unknown"
+      },
+      "nangmi": {
+        "gloss": "you/your/shall",
+        "category": "unknown"
+      },
+      "pek": {
+        "gloss": "you/i/your",
+        "category": "unknown"
+      },
+      "jesuh": {
+        "gloss": "him/jesus/it",
+        "category": "unknown"
+      },
+      "mawng": {
+        "gloss": "his/these/that",
+        "category": "unknown"
+      },
+      "hmat": {
+        "gloss": "i/you/said",
+        "category": "unknown"
+      },
+      "shin": {
+        "gloss": "you/i/said",
+        "category": "unknown"
+      },
+      "hteh": {
+        "gloss": "you/your/his",
+        "category": "unknown"
+      },
+      "ng’thu": {
+        "gloss": "their/lord/i",
+        "category": "divine"
+      },
+      "hnüüp": {
+        "gloss": "day/god/that",
+        "category": "divine"
+      },
+      "phäh": {
+        "gloss": "their/by/every",
+        "category": "unknown"
+      },
+      "täng": {
+        "gloss": "with/as/their",
+        "category": "unknown"
+      },
+      "im": {
+        "gloss": "ark/you/with",
+        "category": "unknown"
+      },
+      "gaw": {
+        "gloss": "city/he/his",
+        "category": "unknown"
+      },
+      "pyein": {
+        "gloss": "you/i/his",
+        "category": "unknown"
+      },
+      "gawk": {
+        "gloss": "his/they/he",
+        "category": "unknown"
+      },
+      "ngawn": {
+        "gloss": "his/him/me",
+        "category": "unknown"
+      },
+      "tuk": {
+        "gloss": "you/that/who",
+        "category": "unknown"
+      },
+      "mät": {
+        "gloss": "you/said/let",
+        "category": "unknown"
+      },
+      "hlü": {
+        "gloss": "that/said/you",
+        "category": "unknown"
+      },
+      "yah": {
+        "gloss": "he/his/when",
+        "category": "unknown"
+      },
+      "kyong": {
+        "gloss": "with/your/his",
+        "category": "unknown"
+      },
+      "gah": {
+        "gloss": "you/your/shall",
+        "category": "unknown"
+      },
+      "hei": {
+        "gloss": "his/he/you",
+        "category": "unknown"
+      },
+      "ngaih": {
+        "gloss": "i/lord/me",
+        "category": "divine"
+      },
+      "hmawk": {
+        "gloss": "you/i/your",
+        "category": "unknown"
+      },
+      "pakhui": {
+        "gloss": "their/you/will",
+        "category": "unknown"
+      },
+      "yum": {
+        "gloss": "you/will/he",
+        "category": "unknown"
+      },
+      "hnumi": {
+        "gloss": "he/man/you",
+        "category": "human"
+      },
+      "van": {
+        "gloss": "his/you/all",
+        "category": "unknown"
+      },
+      "hning": {
+        "gloss": "you/shall/said",
+        "category": "unknown"
+      },
+      "david": {
+        "gloss": "david/his/saul",
+        "category": "unknown"
+      },
+      "ng’yak": {
+        "gloss": "i/said/will",
+        "category": "unknown"
+      },
+      "amät": {
+        "gloss": "him/his/she",
+        "category": "unknown"
+      },
+      "läk": {
+        "gloss": "you/shall/i",
+        "category": "unknown"
+      },
+      "jerusalem": {
+        "gloss": "jerusalem/king/david",
+        "category": "unknown"
+      },
+      "hmu": {
+        "gloss": "his/that/they",
+        "category": "unknown"
+      },
+      "thukhän": {
+        "gloss": "you/covenant/shall",
+        "category": "unknown"
+      },
+      "pha": {
+        "gloss": "i/you/it",
+        "category": "unknown"
+      },
+      "ät": {
+        "gloss": "he/month/first",
+        "category": "unknown"
+      },
+      "bäng": {
+        "gloss": "i/he/not",
+        "category": "unknown"
+      },
+      "judah": {
+        "gloss": "she/he/judah",
+        "category": "unknown"
+      },
+      "moses": {
+        "gloss": "he/moses/his",
+        "category": "unknown"
+      },
+      "ghing": {
+        "gloss": "tree/god/lord",
+        "category": "divine"
+      },
+      "katnak": {
+        "gloss": "you/shall/it",
+        "category": "unknown"
+      },
+      "päng": {
+        "gloss": "you/that/i",
+        "category": "unknown"
+      },
+      "douthak": {
+        "gloss": "shall/you/your",
+        "category": "unknown"
+      },
+      "acun": {
+        "gloss": "it/shall/that",
+        "category": "unknown"
+      },
+      "kaa": {
+        "gloss": "king/with/chedorlaomer",
+        "category": "unknown"
+      },
+      "aih": {
+        "gloss": "my/land/them",
+        "category": "unknown"
+      },
+      "thu": {
+        "gloss": "you/moses/with",
+        "category": "unknown"
+      },
+      "m’lung": {
+        "gloss": "i/you/he",
+        "category": "unknown"
+      },
+      "ghin": {
+        "gloss": "you/god/life",
+        "category": "divine"
+      },
+      "m’hni": {
+        "gloss": "you/me/i",
+        "category": "unknown"
+      },
+      "taigüim": {
+        "gloss": "house/lord/your",
+        "category": "divine"
+      },
+      "bawi": {
+        "gloss": "my/master/lord",
+        "category": "divine"
+      },
+      "sih": {
+        "gloss": "his/you/i",
+        "category": "unknown"
+      },
+      "man": {
+        "gloss": "you/i/by",
+        "category": "unknown"
+      },
+      "egypt": {
+        "gloss": "egypt/he/they",
+        "category": "unknown"
+      },
+      "pei": {
+        "gloss": "as/he/his",
+        "category": "unknown"
+      },
+      "hmun": {
+        "gloss": "lord/you/it",
+        "category": "divine"
+      },
+      "hmuh": {
+        "gloss": "i/you/my",
+        "category": "unknown"
+      },
+      "tha": {
+        "gloss": "you/shall/that",
+        "category": "unknown"
+      },
+      "lung": {
+        "gloss": "you/this/heap",
+        "category": "unknown"
+      },
+      "hnu": {
+        "gloss": "shall/you/he",
+        "category": "unknown"
+      },
+      "mei": {
+        "gloss": "it/fire/out",
+        "category": "unknown"
+      },
+      "khin": {
+        "gloss": "you/i/he",
+        "category": "unknown"
+      },
+      "akda": {
+        "gloss": "you/i/will",
+        "category": "unknown"
+      },
+      "en": {
+        "gloss": "not/you/i",
+        "category": "unknown"
+      },
+      "pyan": {
+        "gloss": "they/it/you",
+        "category": "unknown"
+      },
+      "keimi": {
+        "gloss": "you/we/your",
+        "category": "unknown"
+      },
+      "changshäm": {
+        "gloss": "said/his/your",
+        "category": "unknown"
+      },
+      "gawnu": {
+        "gloss": "as/his/direction",
+        "category": "unknown"
+      },
+      "thum": {
+        "gloss": "he/three/years",
+        "category": "time"
+      },
+      "akcang": {
+        "gloss": "you/he/i",
+        "category": "unknown"
+      },
+      "chu": {
+        "gloss": "you/his/sons",
+        "category": "unknown"
+      },
+      "hun": {
+        "gloss": "you/lord/hand",
+        "category": "divine"
+      },
+      "m’htei": {
+        "gloss": "you/with/me",
+        "category": "unknown"
+      },
+      "huham": {
+        "gloss": "you/shall/your",
+        "category": "unknown"
+      },
+      "hnih": {
+        "gloss": "two/he/you",
+        "category": "unknown"
+      },
+      "khäm": {
+        "gloss": "you/land/your",
+        "category": "unknown"
+      },
+      "ana": {
+        "gloss": "him/his/she",
+        "category": "unknown"
+      },
+      "tuhbäi": {
+        "gloss": "i/you/said",
+        "category": "unknown"
+      },
+      "näng": {
+        "gloss": "said/that/he",
+        "category": "unknown"
+      },
+      "dawng": {
+        "gloss": "you/cubits/said",
+        "category": "unknown"
+      },
+      "m’kyuk": {
+        "gloss": "i/will/you",
+        "category": "unknown"
+      },
+      "ngawi": {
+        "gloss": "you/morning/it",
+        "category": "time"
+      },
+      "nau": {
+        "gloss": "brother/his/said",
+        "category": "unknown"
+      },
+      "khui": {
+        "gloss": "you/him/your",
+        "category": "unknown"
+      },
+      "angtäi": {
+        "gloss": "shall/you/lord",
+        "category": "divine"
+      },
+      "dang": {
+        "gloss": "you/god/lord",
+        "category": "divine"
+      },
+      "cha": {
+        "gloss": "month/my/said",
+        "category": "unknown"
+      },
+      "m’kawt": {
+        "gloss": "you/that/door",
+        "category": "unknown"
+      },
+      "khankho": {
+        "gloss": "lord/you/heavens",
+        "category": "divine"
+      },
+      "si": {
+        "gloss": "you/that/shall",
+        "category": "unknown"
+      },
+      "kyih": {
+        "gloss": "you/i/god",
+        "category": "divine"
+      },
+      "chih": {
+        "gloss": "he/day/month",
+        "category": "time"
+      },
+      "thei": {
+        "gloss": "you/i/said",
+        "category": "unknown"
+      },
+      "kum": {
+        "gloss": "years/your/his",
+        "category": "time"
+      },
+      "khrit": {
+        "gloss": "jesus/christ/you",
+        "category": "divine"
+      },
+      "shüm": {
+        "gloss": "you/will/this",
+        "category": "unknown"
+      },
+      "ng’vai": {
+        "gloss": "his/pharaoh/he",
+        "category": "unknown"
+      },
+      "be": {
+        "gloss": "my/earth/said",
+        "category": "natural"
+      },
+      "hma": {
+        "gloss": "five/i/there",
+        "category": "unknown"
+      },
+      "m’khih": {
+        "gloss": "you/shall/offering",
+        "category": "unknown"
+      },
+      "mikmi": {
+        "gloss": "us/with/they",
+        "category": "unknown"
+      },
+      "akni": {
+        "gloss": "you/me/that",
+        "category": "unknown"
+      },
+      "ghui": {
+        "gloss": "gold/shall/you",
+        "category": "unknown"
+      },
+      "m’dek": {
+        "gloss": "you/ground/he",
+        "category": "unknown"
+      },
+      "guk": {
+        "gloss": "tablets/you/with",
+        "category": "unknown"
+      },
+      "yei": {
+        "gloss": "god/that/he",
+        "category": "divine"
+      },
+      "pum": {
+        "gloss": "shall/it/you",
+        "category": "unknown"
+      },
+      "ngäng": {
+        "gloss": "him/lord/them",
+        "category": "divine"
+      },
+      "pami": {
+        "gloss": "his/fathered/shall",
+        "category": "unknown"
+      },
+      "ng’shi": {
+        "gloss": "said/he/you",
+        "category": "unknown"
+      },
+      "ghü": {
+        "gloss": "i/that/you",
+        "category": "unknown"
+      },
+      "hmaw": {
+        "gloss": "god/boy/from",
+        "category": "divine"
+      },
+      "hnungtuk": {
+        "gloss": "against/you/lord",
+        "category": "divine"
+      },
+      "uknak": {
+        "gloss": "tent/covering/shall",
+        "category": "unknown"
+      },
+      "abi": {
+        "gloss": "shall/he/lord",
+        "category": "divine"
+      },
+      "mah": {
+        "gloss": "their/your/his",
+        "category": "unknown"
+      },
+      "amshah": {
+        "gloss": "with/you/it",
+        "category": "unknown"
+      },
+      "ge": {
+        "gloss": "his/lord/from",
+        "category": "divine"
+      },
+      "güt": {
+        "gloss": "that/you/so",
+        "category": "unknown"
+      },
+      "htei": {
+        "gloss": "it/his/he",
+        "category": "unknown"
+      },
+      "peit": {
+        "gloss": "my/he/you",
+        "category": "unknown"
+      },
+      "awk": {
+        "gloss": "he/drink/your",
+        "category": "unknown"
+      },
+      "akshe": {
+        "gloss": "you/that/evil",
+        "category": "unknown"
+      },
+      "sonkiang": {
+        "gloss": "shall/it/altar",
+        "category": "unknown"
+      },
+      "saul": {
+        "gloss": "saul/you/samuel",
+        "category": "unknown"
+      },
+      "m’dang": {
+        "gloss": "you/shall/lord",
+        "category": "divine"
+      },
+      "phli": {
+        "gloss": "days/i/that",
+        "category": "time"
+      },
+      "nu": {
+        "gloss": "i/you/hail",
+        "category": "unknown"
+      },
+      "dou": {
+        "gloss": "he/his/i",
+        "category": "unknown"
+      },
+      "m’cäi": {
+        "gloss": "you/he/that",
+        "category": "unknown"
+      },
+      "pa": {
+        "gloss": "father/their/she",
+        "category": "unknown"
+      },
+      "jakob": {
+        "gloss": "jacob/his/esau",
+        "category": "unknown"
+      },
+      "uktu": {
+        "gloss": "you/over/shall",
+        "category": "unknown"
+      },
+      "Chrit": {
+        "gloss": "Chrit",
+        "category": "divine"
+      },
+      "Mumcha": {
+        "gloss": "Mumcha",
+        "category": "divine"
+      }
+    },
+    "demonstratives": {
+      "shin": {
+        "gloss": "this/these",
+        "distance": "proximal"
+      },
+      "cun": {
+        "gloss": "that/those",
+        "distance": "distal"
+      },
+      "tuhbäi": {
+        "gloss": "now/this_time",
+        "distance": "proximal"
+      }
+    },
+    "quantifiers": {
+      "avan": {
+        "gloss": "all/every",
+        "type": "universal"
+      },
+      "tumat": {
+        "gloss": "all/everyone",
+        "type": "universal"
+      },
+      "amshah": {
+        "gloss": "other/another",
+        "type": "indefinite"
+      },
+      "akda": {
+        "gloss": "many/much",
+        "type": "quantity"
+      },
+      "akgah": {
+        "gloss": "one/single",
+        "type": "numeral"
+      },
+      "hnih": {
+        "gloss": "two",
+        "type": "numeral"
+      },
+      "thum": {
+        "gloss": "three",
+        "type": "numeral"
+      },
+      "däm": {
+        "gloss": "many/much",
+        "type": "quantity"
+      }
+    },
+    "adjectives": {
+      "akcang": {
+        "gloss": "true/real",
+        "type": "quality"
+      },
+      "awk": {
+        "gloss": "big/large",
+        "type": "size"
+      },
+      "hmaw": {
+        "gloss": "young",
+        "type": "age"
+      },
+      "ghi": {
+        "gloss": "old",
+        "type": "age"
+      },
+      "be": {
+        "gloss": "full",
+        "type": "state"
+      },
+      "düng": {
+        "gloss": "straight/right",
+        "type": "quality"
+      }
+    },
+    "directionals": {
+      "hlüngtai": {
+        "gloss": "before/in_front",
+        "type": "spatial"
+      },
+      "akhnu": {
+        "gloss": "behind/after",
+        "type": "spatial"
+      },
+      "hnu": {
+        "gloss": "back/behind",
+        "type": "spatial"
+      },
+      "ng'tüi": {
+        "gloss": "beginning/front",
+        "type": "spatial"
+      },
+      "täng": {
+        "gloss": "with/side",
+        "type": "spatial"
+      },
+      "k'patlam": {
+        "gloss": "right_side",
+        "type": "spatial"
+      },
+      "coi": {
+        "gloss": "side/near",
+        "type": "spatial"
+      }
+    },
+    "common_words": [
+      "keimi",
+      "ung",
+      "naw",
+      "pyi",
+      "nak",
+      "awn",
+      "ah",
+      "am",
+      "sei",
+      "khai",
+      "kei",
+      "vai",
+      "kä",
+      "netah",
+      "mikmi",
+      "ngami",
+      "nami",
+      "ci",
+      "ani",
+      "noh",
+      "ne",
+      "nang"
+    ]
+  }

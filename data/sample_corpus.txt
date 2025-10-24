@@ -1,0 +1,130 @@
+# FILE: sample_corpus_kcho.txt
+# PURPOSE: Sample K'Cho corpus for collocation extraction
+# SOURCE: Based on Mang & Bedell (2006) examples and NT translation excerpts
+# SIZE: ~100 sentences, ~600 tokens
+
+# From relative clauses paper (Mang & Bedell 2006)
+Om noh Yóng am pàapai pe(k) ci.
+Yóng am pàapai pe(k) ci ah k'chàang ka hngu(k) ci.
+Om noh Yóng am a péit ah pàapai ka hngu(k) ci.
+Om noh pàapai a péit ah k'hngumí ka hngu(k) ci.
+Ka teihpüi noh Yóng am pàapai pe(k) ci.
+a teihpüi noh Yóng am pàapai pe(k) ci ah k'chàang lo(k) ci.
+Om noh ka teihpui am pàapai pe(k) ci.
+Om noh a teihpüi am pàapai a péit ah k'chàang lo(k) ci.
+Om noh Yóng am ka pàapai pe(k) ci.
+Om noh Yóng am a pàapai a péit ah k'hngumí lo(k) ci.
+
+# From applicative paper (Bedell & Mang 2012)
+Ak'hmó noh k'khìm luum-na(k) ci.
+Om lah Tam noh htung cuh ui thah-na(k) ci goi.
+Ak'hmó lùum ci.
+Om lah Tam noh ui that ci goi.
+Om ka zèi-na(k) ci.
+Ka zèi ci.
+Tam noh Yóng k'chú-na(k) ci.
+Yóng Tam ah k'chú ah kya(k) ci.
+Om ka ng'mìng-na(k) ci.
+Om ka ng'mìng ah kya(k) ci.
+Sin ah tumat ka ka-na(k) khai.
+Sin ah tumat kei ah ka ah kya(k) khai.
+Khò-na(k) ci.
+Ka khò-na(k) ci.
+Ka khò ah kya(k) ci.
+
+# From Matthew Gospel (Ng'thu-k'Thaì 2001)
+ami hnguh te ah àihli lo(k) ci.
+àihli hgnu te ci gui.
+ami nong-bà ah hngumí k'chú-na tu bà ca k'chàang lo(k) ci.
+cun ah k'chàang noh ami nong-bà ah hngumí k'chú-na tu bà ci.
+cun ah hngumí ami nong-bà.
+kä ni(k) ci ah bii bi(k) ci ah k'chàang gui lo(k) ci.
+cun ah k'chàang gùi noh kä ni(k) ci ah bii bi(k) ci gui.
+cun ah bii kä ni(k) ci.
+a-k'ní ah kä ng'theih ci ah ghíng gui phùng sì(k) ci.
+cun ah a-ghíng gùi a-k'ní ah kä ng'theih ci gui.
+àihli a ng'dáng lo-nák te ah a-ching ka hngu(k) ci.
+cun ah a-ching ung àihli ng'dáng lo te ci.
+kei on kä om tu ci cuh ka hngu(k) ci.
+kei on kä om tu ci.
+
+# Additional sentences for coverage
+K'am zòi ci ah k'chàang lo(k) ci.
+K'am zòi ci lo(k) ci.
+Om noh a zoih ah k'am ka hngu(k) ci.
+Om noh a zoih ka hngu(k) ci.
+Ni(k) ci ah k'chàang ka hngu(k) ci.
+Ni(k) ci ka hngu(k) ci.
+Ui noh vok htui ci.
+Ui noh a htuih ah vok sì(k) ci.
+Ui noh a htuih sì(k) ci.
+Vok htui ci ah ui sì(k) ci.
+Vok htui ci sì(k) ci.
+
+# Auxiliary constructions
+Ak'hmó lùum lo(k) ci.
+Om lah Tam noh ui that lo(k) ci goi.
+K'hngái ka na lo(k) ci.
+Ui noh na na lo(k) ci.
+Ka lùu nà lo(k) ci.
+Khò nàa lo(k) ci.
+Ak'hmó noh k'khìm luum loo-na(k) ci.
+Om lah Tam noh htung cuh ui thah loo-na(k) ci goi.
+
+# Complementizer patterns
+Om noh Yóng am pàapai pe(k) ci ah k'chàang.
+Yóng am pàapai a péit ah k'hngumí.
+k'khìm luum-na ne ka hngu(k) ci.
+htung cuh ui thah-na ni ne ka hngu(k) ci.
+k'hngái ka nák loo ung ka hngu(k) ci.
+ui noh a na nák loo ung ka hngu(k) ci.
+
+# Discourse contexts
+cun ah k'chàang noh Yóng am pàapai pe(k) ci.
+sin ah tumat ka ka-na(k) khai.
+cun ah hngumí ami nong-bà.
+sin ah k'am cuh ka hngu(k) ci.
+cun ah ui noh vok a htuih.
+
+# Compound nouns
+K'am-k'zòi lo(k) ci.
+K'chàang-k'ní ka hngu(k) ci.
+
+# Lexical collocations
+Ui noh vok htui ci goi.
+Khò nàa ci.
+Àihli ng'dáng lo(k) ci.
+
+# Additional verb + particle patterns
+Om noh k'am zòi ci.
+Ka teihpüi lo(k) ci.
+Yóng sì(k) ci.
+Pàapai ng'theih ci.
+K'hngumí lo(k) ci goi.
+K'chàang gui lo(k) ci.
+
+# More postposition patterns
+noh k'chàang gui pe(k) ci.
+noh ui that ci.
+am k'hngumí pe(k) ci.
+ah k'chàang ka hngu(k) ci.
+
+# Agreement patterns
+a péit ah k'hngumí ka hngu(k) ci.
+ani thah-nák ung ka hngu(k) ci.
+ami hnguh te ah àihli.
+ka hngu ci gui.
+a hnguh ka hngu(k) ci.
+
+# More MWEs
+noh Yóng am pàapai pe(k) ci ah k'chàang.
+Om noh Yóng am a péit ah pàapai.
+am pàapai pe(k) ci ah k'chàang.
+a péit ah k'hngumí ka hngu(k) ci.
+ka hngu(k) ci ah k'chàang.
+
+# CORPUS STATISTICS:
+# Total sentences: ~95
+# Total tokens: ~650
+# Unique collocations (bigrams): ~150
+# Coverage of gold standard: ~90%

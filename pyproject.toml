@@ -1,0 +1,62 @@
+# FILE: pyproject.toml (NEW/UPDATED)
+# PURPOSE: PyPI packaging configuration
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kcho-linguistic-toolkit"
+version = "0.1.0"
+description = "K'Cho linguistic analysis toolkit for low-resource NLP with collocation extraction, morphological analysis, and corpus processing"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Hung Om", email = "hungom@example.com"}
+]
+keywords = ["nlp", "low-resource", "kcho", "linguistics", "collocation", "morphology", "corpus", "language-processing"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+    "nltk>=3.7",
+    "scikit-learn>=1.0",
+    "click>=8.0",
+    "numpy>=1.20",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=22.0",
+    "flake8>=4.0",
+]
+
+[project.scripts]
+kcho = "kcho.kcho_app:cli"
+
+[project.urls]
+Homepage = "https://github.com/hungom/kcho-linguistic-toolkit"
+Documentation = "https://github.com/hungom/kcho-linguistic-toolkit#readme"
+Repository = "https://github.com/hungom/kcho-linguistic-toolkit"
+Issues = "https://github.com/hungom/kcho-linguistic-toolkit/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["kcho*"]
+
+[tool.setuptools.package-data]
+kcho = ["data/*"]
