@@ -64,7 +64,7 @@ Install the package in development mode:
 
 ```bash
 # Clone the repository
-git clone https://github.com/hungom/kcho-linguistic-toolkit.git
+git clone https://github.com/HungOm/kcho-linguistic-toolkit.git
 cd kcho-linguistic-toolkit
 
 # Install in development mode

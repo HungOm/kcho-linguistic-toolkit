@@ -49,10 +49,10 @@ dev = [
 kcho = "kcho.kcho_app:cli"
 
 [project.urls]
-Homepage = "https://github.com/hungom/kcho-linguistic-toolkit"
-Documentation = "https://github.com/hungom/kcho-linguistic-toolkit#readme"
-Repository = "https://github.com/hungom/kcho-linguistic-toolkit"
-Issues = "https://github.com/hungom/kcho-linguistic-toolkit/issues"
+Homepage = "https://github.com/HungOm/kcho-linguistic-toolkit"
+Documentation = "https://github.com/HungOm/kcho-linguistic-toolkit#readme"
+Repository = "https://github.com/HungOm/kcho-linguistic-toolkit"
+Issues = "https://github.com/HungOm/kcho-linguistic-toolkit/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
