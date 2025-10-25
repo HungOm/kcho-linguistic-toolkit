@@ -3,7 +3,7 @@
 **Author**: Hung Om  
 **Research Foundation**: Based on K'Cho linguistic research by Bedell & Mang (2012)  
 **Version**: 2.0.0  
-**Date**: 2024-10-25
+**Date**: 2025-01-25
 
 ## Abstract
 
@@ -15,10 +15,10 @@ This document summarizes the comprehensive update to the K'Cho Linguistic Proces
 
 **BibTeX Citation Added**:
 ```bibtex
-@software{om2024kcho,
+@software{om2025kcho,
   title={K'Cho Linguistic Processing Toolkit},
   author={Om, Hung},
-  year={2024},
+  year={2025},
   url={https://github.com/HungOm/kcho-linguistic-toolkit},
   note={Based on linguistic research by Bedell \& Mang (2012)}
 }

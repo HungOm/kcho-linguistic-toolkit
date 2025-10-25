@@ -11,10 +11,10 @@ A comprehensive computational toolkit for K'Cho language processing, featuring S
 If you use this software in your research, please cite:
 
 ```bibtex
-@software{om2024kcho,
+@software{om2025kcho,
   title={K'Cho Linguistic Processing Toolkit},
   author={Om, Hung},
-  year={2024},
+  year={2025},
   url={https://github.com/HungOm/kcho-linguistic-toolkit},
   note={Computational implementation based on foundational K'Cho linguistic research}
 }

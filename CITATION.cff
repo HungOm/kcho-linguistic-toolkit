@@ -6,7 +6,7 @@ authors:
     orcid: "https://orcid.org/0000-0000-0000-0000"  # Replace with actual ORCID if available
 title: "K'Cho Linguistic Processing Toolkit"
 version: "0.2.0"
-date-released: "2024-10-25"
+date-released: "2025-01-25"
 url: "https://github.com/HungOm/kcho-linguistic-toolkit"
 license: "MIT"
 keywords:
@@ -24,6 +24,6 @@ preferred-citation:
   authors:
     - family-names: "Om"
       given-names: "Hung"
-  year: 2024
+  year: 2025
   url: "https://github.com/HungOm/kcho-linguistic-toolkit"
   note: "Computational implementation based on foundational K'Cho linguistic research"
