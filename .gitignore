@@ -247,3 +247,12 @@ secrets.json
 *.corpus
 *.txt.gz
 *.csv.gz
+# Generated/Temporary Files
+kcho_project/
+kcho/output/
+*.json.bak
+*.tmp.json
+
+# Large generated datasets  
+data/parallel_corpora/*.json
+data/research_outputs/**/*.json
