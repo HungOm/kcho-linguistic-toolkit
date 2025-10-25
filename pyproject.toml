@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kcho-linguistic-toolkit"
-version = "0.1.0"
+version = "0.2.0"
 description = "K'Cho linguistic analysis toolkit for low-resource NLP with collocation extraction, morphological analysis, and corpus processing"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -36,17 +36,24 @@ dependencies = [
     "scikit-learn>=1.0",
     "click>=8.0",
     "numpy>=1.20",
+    "requests>=2.25",
+    "python-dotenv>=1.0",
 ]
 
 [project.optional-dependencies]
+validation = [
+    "pydantic>=2.0",
+]
 dev = [
     "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "pytest-mock>=3.0",
     "black>=22.0",
     "flake8>=4.0",
 ]
 
 [project.scripts]
-kcho = "kcho.kcho_app:cli"
+kcho = "kcho.cli:cli"
 
 [project.urls]
 Homepage = "https://github.com/HungOm/kcho-linguistic-toolkit"
@@ -60,3 +67,22 @@ include = ["kcho*"]
 
 [tool.setuptools.package-data]
 kcho = ["data/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",
+    "--tb=short",
+    "--cov=kcho",
+    "--cov-report=term-missing",
+    "--cov-report=html:htmlcov",
+    "--cov-fail-under=80"
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests"
+]

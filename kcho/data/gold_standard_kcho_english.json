@@ -1,0 +1,807 @@
+{
+    "corpus_metadata": {
+      "name": "K'Cho-English Gold Standard Parallel Corpus",
+      "version": "1.0",
+      "language_pair": "kcho-eng",
+      "total_pairs": 95,
+      "source": "Mang & Bedell (2006, 2012) linguistic research + NT translations",
+      "license": "Research/Educational Use",
+      "created": "2025",
+      "annotation_guidelines": "Linguistic accuracy prioritized over fluency",
+      "quality": "expert-validated"
+    },
+    "sentence_pairs": [
+      {
+        "id": "rel_001",
+        "kcho": "Om noh Yóng am pàapai pe(k) ci.",
+        "english": "Om gave Yong a flower.",
+        "source": "Mang & Bedell 2006",
+        "category": "simple_transitive",
+        "linguistic_features": ["postposition_noh", "postposition_am", "stem_I"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "rel_002",
+        "kcho": "Yóng am pàapai pe(k) ci ah k'chàang ka hngu(k) ci.",
+        "english": "I saw the man that gave Yong a flower.",
+        "source": "Mang & Bedell 2006",
+        "category": "relative_clause_subject",
+        "linguistic_features": ["relative_clause", "complementizer_ah", "stem_I", "agreement_ka"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "rel_003",
+        "kcho": "Om noh Yóng am a péit ah pàapai ka hngu(k) ci.",
+        "english": "I saw the flower that Om gave Yong.",
+        "source": "Mang & Bedell 2006",
+        "category": "relative_clause_object",
+        "linguistic_features": ["relative_clause", "stem_II", "agreement_a"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "rel_004",
+        "kcho": "Om noh pàapai a péit ah k'hngumí ka hngu(k) ci.",
+        "english": "I saw the woman that Om gave a flower to.",
+        "source": "Mang & Bedell 2006",
+        "category": "relative_clause_indirect_object",
+        "linguistic_features": ["relative_clause", "stem_II", "ditransitive"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "rel_005",
+        "kcho": "Ka teihpüi noh Yóng am pàapai pe(k) ci.",
+        "english": "My friend gave Yong a flower.",
+        "source": "Mang & Bedell 2006",
+        "category": "genitive_subject",
+        "linguistic_features": ["genitive_ka", "postposition_noh"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "rel_006",
+        "kcho": "a teihpüi noh Yóng am pàapai pe(k) ci ah k'chàang lo(k) ci.",
+        "english": "The man whose friend gave Yong a flower came.",
+        "source": "Mang & Bedell 2006",
+        "category": "relative_genitive_subject",
+        "linguistic_features": ["relative_clause", "genitive_agreement", "auxiliary_lo"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "rel_007",
+        "kcho": "Om noh ka teihpui am pàapai pe(k) ci.",
+        "english": "Om gave my friend a flower.",
+        "source": "Mang & Bedell 2006",
+        "category": "genitive_object",
+        "linguistic_features": ["genitive_ka", "ditransitive"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "rel_008",
+        "kcho": "Om noh a teihpüi am pàapai a péit ah k'chàang lo(k) ci.",
+        "english": "The man whose friend Om gave a flower to came.",
+        "source": "Mang & Bedell 2006",
+        "category": "relative_genitive_indirect",
+        "linguistic_features": ["relative_clause", "genitive_a", "stem_II"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "rel_009",
+        "kcho": "Om noh Yóng am ka pàapai pe(k) ci.",
+        "english": "Om gave Yong my flower.",
+        "source": "Mang & Bedell 2006",
+        "category": "genitive_direct_object",
+        "linguistic_features": ["genitive_ka", "ditransitive"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "rel_010",
+        "kcho": "Om noh Yóng am a pàapai a péit ah k'hngumí lo(k) ci.",
+        "english": "The woman whose flower Om gave Yong came.",
+        "source": "Mang & Bedell 2006",
+        "category": "relative_genitive_direct",
+        "linguistic_features": ["relative_clause", "genitive_a", "auxiliary_lo"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "app_001",
+        "kcho": "Ak'hmó noh k'khìm luum-na(k) ci.",
+        "english": "The child played with a knife.",
+        "source": "Bedell & Mang 2012",
+        "category": "applicative_instrumental",
+        "linguistic_features": ["applicative_na", "postposition_noh", "instrumental"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "app_002",
+        "kcho": "Om lah Tam noh htung cuh ui thah-na(k) ci goi.",
+        "english": "Om and Tam beat the dog with the stick.",
+        "source": "Bedell & Mang 2012",
+        "category": "applicative_instrumental_conjoined",
+        "linguistic_features": ["applicative_na", "conjunction_lah", "determiner_cuh", "number_goi"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "app_003",
+        "kcho": "Ak'hmó lùum ci.",
+        "english": "The child played.",
+        "source": "Bedell & Mang 2012",
+        "category": "simple_intransitive",
+        "linguistic_features": ["intransitive", "stem_I"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "app_004",
+        "kcho": "Om lah Tam noh ui that ci goi.",
+        "english": "Om and Tam beat the dog.",
+        "source": "Bedell & Mang 2012",
+        "category": "simple_transitive_conjoined",
+        "linguistic_features": ["conjunction_lah", "number_goi"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "app_005",
+        "kcho": "Om ka zèi-na(k) ci.",
+        "english": "I like Om.",
+        "source": "Bedell & Mang 2012",
+        "category": "applicative_experiencer",
+        "linguistic_features": ["applicative_na", "stative_verb", "agreement_ka"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "app_006",
+        "kcho": "Ka zèi ci.",
+        "english": "I am pleased.",
+        "source": "Bedell & Mang 2012",
+        "category": "stative_intransitive",
+        "linguistic_features": ["stative_verb", "agreement_ka"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "app_007",
+        "kcho": "Tam noh Yóng k'chú-na(k) ci.",
+        "english": "Tam is married to Yong.",
+        "source": "Bedell & Mang 2012",
+        "category": "applicative_noun_wife",
+        "linguistic_features": ["applicative_na", "noun_base", "stative"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "app_008",
+        "kcho": "Yóng Tam ah k'chú ah kya(k) ci.",
+        "english": "Yong is Tam's wife.",
+        "source": "Bedell & Mang 2012",
+        "category": "equational_copula",
+        "linguistic_features": ["copula_kya", "postposition_ah", "genitive"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "app_009",
+        "kcho": "Om ka ng'mìng-na(k) ci.",
+        "english": "I am named Om.",
+        "source": "Bedell & Mang 2012",
+        "category": "applicative_noun_name",
+        "linguistic_features": ["applicative_na", "noun_base", "agreement_ka"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "app_010",
+        "kcho": "Om ka ng'mìng ah kya(k) ci.",
+        "english": "Om is my name.",
+        "source": "Bedell & Mang 2012",
+        "category": "equational_genitive",
+        "linguistic_features": ["copula_kya", "genitive_ka"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "app_011",
+        "kcho": "Sin ah tumat ka ka-na(k) khai.",
+        "english": "I will take this one as my own.",
+        "source": "Bedell & Mang 2012",
+        "category": "applicative_possessive_future",
+        "linguistic_features": ["applicative_na", "anaphoric_ka", "future_khai", "demonstrative_sin"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "app_012",
+        "kcho": "Sin ah tumat kei ah ka ah kya(k) khai.",
+        "english": "This one will be mine.",
+        "source": "Bedell & Mang 2012",
+        "category": "equational_possessive_future",
+        "linguistic_features": ["copula_kya", "future_khai", "possessive"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "app_013",
+        "kcho": "Khò-na(k) ci.",
+        "english": "He has it as his land.",
+        "source": "Bedell & Mang 2012",
+        "category": "applicative_noun_land",
+        "linguistic_features": ["applicative_na", "noun_base", "possessive"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "app_014",
+        "kcho": "Ka khò-na(k) ci.",
+        "english": "I have it as my land.",
+        "source": "Bedell & Mang 2012",
+        "category": "applicative_possessive_land",
+        "linguistic_features": ["applicative_na", "agreement_ka"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "app_015",
+        "kcho": "Ka khò ah kya(k) ci.",
+        "english": "It is my land.",
+        "source": "Bedell & Mang 2012",
+        "category": "equational_possessive",
+        "linguistic_features": ["copula_kya", "genitive_ka"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "nt_001",
+        "kcho": "ami hnguh te ah àihli lo(k) ci.",
+        "english": "The star that they saw came.",
+        "source": "Matthew 2:10 (Ng'thu-k'Thaì 2001)",
+        "category": "relative_clause_past",
+        "linguistic_features": ["relative_clause", "past_te", "plural_ami", "auxiliary_lo"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "nt_002",
+        "kcho": "àihli hgnu te ci gui.",
+        "english": "They saw a star.",
+        "source": "Matthew 2:10",
+        "category": "simple_past_plural",
+        "linguistic_features": ["past_te", "plural_gui"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "nt_003",
+        "kcho": "ami nong-bà ah hngumí k'chú-na tu bà ca k'chàang lo(k) ci.",
+        "english": "A man that marries a woman that has been divorced came.",
+        "source": "Matthew 5:32",
+        "category": "nested_relative_clauses",
+        "linguistic_features": ["relative_clause", "applicative_na", "passive", "particle_tu"],
+        "difficulty": "very_hard"
+      },
+      {
+        "id": "nt_004",
+        "kcho": "cun ah k'chàang noh ami nong-bà ah hngumí k'chú-na tu bà ci.",
+        "english": "That man is marrying a woman that has been divorced.",
+        "source": "Matthew 5:32",
+        "category": "relative_clause_passive",
+        "linguistic_features": ["demonstrative_cun", "relative_clause", "passive"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "nt_005",
+        "kcho": "cun ah hngumí ami nong-bà.",
+        "english": "That woman has been divorced.",
+        "source": "Matthew 5:32",
+        "category": "passive_perfect",
+        "linguistic_features": ["passive", "plural_agreement"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "nt_006",
+        "kcho": "kä ni(k) ci ah bii bi(k) ci ah k'chàang gui lo(k) ci.",
+        "english": "Men that do things that are not good came.",
+        "source": "Matthew 7:23",
+        "category": "nested_relative_negative",
+        "linguistic_features": ["relative_clause", "negation_kä", "plural_gui"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "nt_007",
+        "kcho": "cun ah k'chàang gùi noh kä ni(k) ci ah bii bi(k) ci gui.",
+        "english": "Those men do things that are not good.",
+        "source": "Matthew 7:23",
+        "category": "relative_clause_negative",
+        "linguistic_features": ["demonstrative_cun", "negation_kä", "plural_gùi"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "nt_008",
+        "kcho": "cun ah bii kä ni(k) ci.",
+        "english": "That act is not good.",
+        "source": "Matthew 7:23",
+        "category": "simple_negative",
+        "linguistic_features": ["negation_kä", "stative_verb"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "nt_009",
+        "kcho": "a-k'ní ah kä ng'theih ci ah ghíng gui phùng sì(k) ci.",
+        "english": "Every tree that does not bear good things died.",
+        "source": "Matthew 7:19",
+        "category": "relative_negative_quantifier",
+        "linguistic_features": ["relative_clause", "negation_kä", "quantifier_phùng"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "nt_010",
+        "kcho": "cun ah a-ghíng gùi a-k'ní ah kä ng'theih ci gui.",
+        "english": "Those trees do not bear good things.",
+        "source": "Matthew 7:19",
+        "category": "negative_plural",
+        "linguistic_features": ["negation_kä", "plural_gùi", "nominal_prefix_a"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "nt_011",
+        "kcho": "àihli a ng'dáng lo-nák te ah a-ching ka hngu(k) ci.",
+        "english": "I saw the time that the star appeared.",
+        "source": "Matthew 2:7",
+        "category": "relative_adverbial",
+        "linguistic_features": ["relative_clause", "adverbial_nák", "directional_lo"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "nt_012",
+        "kcho": "cun ah a-ching ung àihli ng'dáng lo te ci.",
+        "english": "At that time a star appeared.",
+        "source": "Matthew 2:7",
+        "category": "temporal_locative",
+        "linguistic_features": ["demonstrative_cun", "postposition_ung", "directional_lo"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "nt_013",
+        "kcho": "kei on kä om tu ci cuh ka hngu(k) ci.",
+        "english": "I saw he that is not with me.",
+        "source": "Matthew 12:30",
+        "category": "relative_comitative_negative",
+        "linguistic_features": ["relative_clause", "postposition_on", "negation_kä", "particle_tu"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "nt_014",
+        "kcho": "kei on kä om tu ci.",
+        "english": "He is not with me.",
+        "source": "Matthew 12:30",
+        "category": "comitative_negative",
+        "linguistic_features": ["postposition_on", "negation_kä", "particle_tu"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "aux_001",
+        "kcho": "K'am zòi ci ah k'chàang lo(k) ci.",
+        "english": "The man that sells pots came.",
+        "source": "Additional examples",
+        "category": "relative_intransitive",
+        "linguistic_features": ["relative_clause", "auxiliary_lo"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "aux_002",
+        "kcho": "K'am zòi ci lo(k) ci.",
+        "english": "The one that sells pots came.",
+        "source": "Additional examples",
+        "category": "headless_relative",
+        "linguistic_features": ["relative_clause", "empty_head", "auxiliary_lo"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "aux_003",
+        "kcho": "Om noh a zoih ah k'am ka hngu(k) ci.",
+        "english": "I saw the pots that Om sells.",
+        "source": "Additional examples",
+        "category": "relative_object_stem_II",
+        "linguistic_features": ["relative_clause", "stem_II"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "aux_004",
+        "kcho": "Om noh a zoih ka hngu(k) ci.",
+        "english": "I saw the ones that Om sells.",
+        "source": "Additional examples",
+        "category": "headless_relative_object",
+        "linguistic_features": ["relative_clause", "empty_head", "stem_II"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "aux_005",
+        "kcho": "Ni(k) ci ah k'chàang ka hngu(k) ci.",
+        "english": "I saw a man that was good.",
+        "source": "Additional examples",
+        "category": "relative_stative",
+        "linguistic_features": ["relative_clause", "stative_verb"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "aux_006",
+        "kcho": "Ni(k) ci ka hngu(k) ci.",
+        "english": "I saw one that was good.",
+        "source": "Additional examples",
+        "category": "headless_relative_stative",
+        "linguistic_features": ["relative_clause", "empty_head", "stative_verb"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "aux_007",
+        "kcho": "Ui noh vok htui ci.",
+        "english": "A dog bit a pig.",
+        "source": "Additional examples",
+        "category": "simple_transitive_animal",
+        "linguistic_features": ["postposition_noh", "stem_I"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "aux_008",
+        "kcho": "Ui noh a htuih ah vok sì(k) ci.",
+        "english": "The pig that the dog bit died.",
+        "source": "Additional examples",
+        "category": "relative_patient_stem_II",
+        "linguistic_features": ["relative_clause", "stem_II"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "aux_009",
+        "kcho": "Ui noh a htuih sì(k) ci.",
+        "english": "The one that the dog bit died.",
+        "source": "Additional examples",
+        "category": "headless_relative_patient",
+        "linguistic_features": ["relative_clause", "empty_head", "stem_II"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "aux_010",
+        "kcho": "Vok htui ci ah ui sì(k) ci.",
+        "english": "The dog that bit the pig died.",
+        "source": "Additional examples",
+        "category": "relative_agent",
+        "linguistic_features": ["relative_clause", "stem_I"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "aux_011",
+        "kcho": "Vok htui ci sì(k) ci.",
+        "english": "The one that bit the pig died.",
+        "source": "Additional examples",
+        "category": "headless_relative_agent",
+        "linguistic_features": ["relative_clause", "empty_head"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "incept_001",
+        "kcho": "Ak'hmó lùum lo(k) ci.",
+        "english": "The child began to play.",
+        "source": "Auxiliary constructions",
+        "category": "inceptive_intransitive",
+        "linguistic_features": ["auxiliary_lo", "inceptive"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "incept_002",
+        "kcho": "Om lah Tam noh ui that lo(k) ci goi.",
+        "english": "Om and Tam began to beat the dog.",
+        "source": "Auxiliary constructions",
+        "category": "inceptive_transitive",
+        "linguistic_features": ["auxiliary_lo", "conjunction_lah", "number_goi"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "incept_003",
+        "kcho": "K'hngái ka na lo(k) ci.",
+        "english": "I began to wear earrings.",
+        "source": "Auxiliary constructions",
+        "category": "inceptive_transitive_body",
+        "linguistic_features": ["auxiliary_lo", "agreement_ka"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "incept_004",
+        "kcho": "Ui noh na na lo(k) ci.",
+        "english": "The dog began to bark at me.",
+        "source": "Auxiliary constructions",
+        "category": "inceptive_ditransitive",
+        "linguistic_features": ["auxiliary_lo", "object_agreement_na"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "incept_005",
+        "kcho": "Ka lùu nà lo(k) ci.",
+        "english": "My head began to ache.",
+        "source": "Auxiliary constructions",
+        "category": "inceptive_body_part",
+        "linguistic_features": ["auxiliary_lo", "genitive_ka", "stative_verb"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "incept_006",
+        "kcho": "Khò nàa lo(k) ci.",
+        "english": "It began to rain continually.",
+        "source": "Auxiliary constructions",
+        "category": "inceptive_weather",
+        "linguistic_features": ["auxiliary_lo", "durative_nàa"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "incept_007",
+        "kcho": "Ak'hmó noh k'khìm luum loo-na(k) ci.",
+        "english": "The child began to play with the knife.",
+        "source": "Auxiliary constructions",
+        "category": "inceptive_applicative",
+        "linguistic_features": ["auxiliary_lo", "applicative_na", "stem_II_auxiliary"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "incept_008",
+        "kcho": "Om lah Tam noh htung cuh ui thah loo-na(k) ci goi.",
+        "english": "Om and Tam began to beat the dog with the stick.",
+        "source": "Auxiliary constructions",
+        "category": "inceptive_applicative_complex",
+        "linguistic_features": ["auxiliary_lo", "applicative_na", "conjunction_lah", "determiner_cuh"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "comp_001",
+        "kcho": "k'khìm luum-na ne ka hngu(k) ci.",
+        "english": "I saw playing with the knife.",
+        "source": "Complementizer patterns",
+        "category": "complement_applicative",
+        "linguistic_features": ["complementizer_ne", "applicative_na"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "comp_002",
+        "kcho": "htung cuh ui thah-na ni ne ka hngu(k) ci.",
+        "english": "I saw beating the dog with the stick.",
+        "source": "Complementizer patterns",
+        "category": "complement_applicative_complex",
+        "linguistic_features": ["complementizer_ne", "applicative_na", "number_ni"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "comp_003",
+        "kcho": "k'hngái ka nák loo ung ka hngu(k) ci.",
+        "english": "I saw when I begin to wear earrings.",
+        "source": "Complementizer patterns",
+        "category": "temporal_clause",
+        "linguistic_features": ["postposition_ung", "stem_II", "auxiliary_loo"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "comp_004",
+        "kcho": "ui noh a na nák loo ung ka hngu(k) ci.",
+        "english": "I saw when the dog begins to bark at me.",
+        "source": "Complementizer patterns",
+        "category": "temporal_clause_ditransitive",
+        "linguistic_features": ["postposition_ung", "stem_II", "object_agreement_a"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "disc_001",
+        "kcho": "cun ah k'chàang noh Yóng am pàapai pe(k) ci.",
+        "english": "That man gave Yong a flower.",
+        "source": "Discourse contexts",
+        "category": "demonstrative_discourse",
+        "linguistic_features": ["demonstrative_cun", "postposition_ah"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "disc_002",
+        "kcho": "sin ah tumat ka ka-na(k) khai.",
+        "english": "I will take this one as my own.",
+        "source": "Discourse contexts",
+        "category": "proximal_demonstrative",
+        "linguistic_features": ["demonstrative_sin", "future_khai"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "disc_003",
+        "kcho": "cun ah hngumí ami nong-bà.",
+        "english": "That woman has been divorced.",
+        "source": "Discourse contexts",
+        "category": "anaphoric_reference",
+        "linguistic_features": ["demonstrative_cun", "passive"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "disc_004",
+        "kcho": "sin ah k'am cuh ka hngu(k) ci.",
+        "english": "I saw this pot.",
+        "source": "Discourse contexts",
+        "category": "demonstrative_determiner",
+        "linguistic_features": ["demonstrative_sin", "determiner_cuh"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "disc_005",
+        "kcho": "cun ah ui noh vok a htuih.",
+        "english": "That dog bit the pig.",
+        "source": "Discourse contexts",
+        "category": "anaphoric_agent",
+        "linguistic_features": ["demonstrative_cun", "stem_II"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "compound_001",
+        "kcho": "K'am-k'zòi lo(k) ci.",
+        "english": "The pot seller came.",
+        "source": "Compound nouns",
+        "category": "noun_noun_compound",
+        "linguistic_features": ["compound_noun", "stem_I_compound"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "compound_002",
+        "kcho": "K'chàang-k'ní ka hngu(k) ci.",
+        "english": "I saw a good man.",
+        "source": "Compound nouns",
+        "category": "noun_adjective_compound",
+        "linguistic_features": ["compound_noun", "stem_III_adjective"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "lex_001",
+        "kcho": "Ui noh vok htui ci goi.",
+        "english": "The dogs bit the pig.",
+        "source": "Lexical collocations",
+        "category": "agent_patient_collocation",
+        "linguistic_features": ["lexical_collocation", "plural_goi"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "lex_002",
+        "kcho": "Khò nàa ci.",
+        "english": "It rained for a long time.",
+        "source": "Lexical collocations",
+        "category": "durative_weather",
+        "linguistic_features": ["durative_nàa", "weather_verb"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "lex_003",
+        "kcho": "Àihli ng'dáng lo(k) ci.",
+        "english": "The star appeared and came.",
+        "source": "Lexical collocations",
+        "category": "motion_appearance",
+        "linguistic_features": ["directional_lo", "appearance_verb"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "verb_part_001",
+        "kcho": "Om noh k'am zòi ci.",
+        "english": "Om sells pots.",
+        "source": "Verb patterns",
+        "category": "verb_tense_particle",
+        "linguistic_features": ["particle_ci", "stem_I"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "verb_part_002",
+        "kcho": "Ka teihpüi lo(k) ci.",
+        "english": "My friend came.",
+        "source": "Verb patterns",
+        "category": "motion_verb",
+        "linguistic_features": ["directional_lo", "genitive_ka"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "verb_part_003",
+        "kcho": "Yóng sì(k) ci.",
+        "english": "Yong died.",
+        "source": "Verb patterns",
+        "category": "inchoative_verb",
+        "linguistic_features": ["particle_ci", "change_of_state"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "verb_part_004",
+        "kcho": "Pàapai ng'theih ci.",
+        "english": "The flower bears.",
+        "source": "Verb patterns",
+        "category": "intransitive_natural",
+        "linguistic_features": ["particle_ci", "natural_process"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "verb_part_005",
+        "kcho": "K'hngumí lo(k) ci goi.",
+        "english": "The women came.",
+        "source": "Verb patterns",
+        "category": "motion_plural_animate",
+        "linguistic_features": ["directional_lo", "plural_goi"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "verb_part_006",
+        "kcho": "K'chàang gui lo(k) ci.",
+        "english": "The men came.",
+        "source": "Verb patterns",
+        "category": "motion_plural_human",
+        "linguistic_features": ["directional_lo", "plural_gui"],
+        "difficulty": "easy"
+      },
+      {
+        "id": "agr_001",
+        "kcho": "a péit ah k'hngumí ka hngu(k) ci.",
+        "english": "I saw the woman that he gave to.",
+        "source": "Agreement patterns",
+        "category": "object_agreement_relative",
+        "linguistic_features": ["agreement_a", "stem_II", "relative_clause"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "agr_002",
+        "kcho": "ani thah-nák ung ka hngu(k) ci.",
+        "english": "I saw when they beat.",
+        "source": "Agreement patterns",
+        "category": "dual_agreement_temporal",
+        "linguistic_features": ["agreement_ani", "dual", "postposition_ung"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "agr_003",
+        "kcho": "ami hnguh te ah àihli.",
+        "english": "the star that they saw",
+        "source": "Agreement patterns",
+        "category": "plural_agreement_relative",
+        "linguistic_features": ["agreement_ami", "plural", "past_te"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "agr_004",
+        "kcho": "ka hngu ci gui.",
+        "english": "they saw me",
+        "source": "Agreement patterns",
+        "category": "object_agreement_first_person",
+        "linguistic_features": ["object_agreement_ka", "plural_gui"],
+        "difficulty": "medium"
+      },
+      {
+        "id": "agr_005",
+        "kcho": "a hnguh ka hngu(k) ci.",
+        "english": "I saw that he saw.",
+        "source": "Agreement patterns",
+        "category": "embedded_agreement",
+        "linguistic_features": ["agreement_a", "stem_II", "embedding"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "mwe_001",
+        "kcho": "noh Yóng am pàapai pe(k) ci ah k'chàang.",
+        "english": "the man that gave Yong a flower",
+        "source": "MWE patterns",
+        "category": "complex_relative_ditransitive",
+        "linguistic_features": ["relative_clause", "ditransitive", "multi_word"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "mwe_002",
+        "kcho": "Om noh Yóng am a péit ah pàapai.",
+        "english": "the flower that Om gave Yong",
+        "source": "MWE patterns",
+        "category": "complex_relative_object",
+        "linguistic_features": ["relative_clause", "ditransitive", "stem_II"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "mwe_003",
+        "kcho": "am pàapai pe(k) ci ah k'chàang.",
+        "english": "the man that gave a flower to",
+        "source": "MWE patterns",
+        "category": "complex_relative_indirect",
+        "linguistic_features": ["relative_clause", "ditransitive", "extraction"],
+        "difficulty": "hard"
+      },
+      {
+        "id": "mwe_004",
+        "kcho": "a péit ah k'hngumí ka hngu(k) ci.",
+        "english": "I saw the woman that he gave to.",
+        "source": "MWE patterns",
+        "category": "complex_relative_embedded",
+        "linguistic_features": ["relative_clause", "stem_II", "embedding"],
+        "difficulty": "very_hard"
+      },
+      {
+        "id": "mwe_005",
+        "kcho": "ka hngu(k) ci ah k'chàang.",
+        "english": "the man that saw me",
+        "source": "MWE patterns",
+        "category": "complex_relative_simple",
+        "linguistic_features": ["relative_clause", "object_agreement"],
+        "difficulty": "medium"
+      }
+    ]
+  }

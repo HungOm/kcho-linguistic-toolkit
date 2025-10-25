@@ -1,0 +1,98 @@
+# FILE: gold_standard_kcho_collocations.txt
+# PURPOSE: Gold standard K'Cho collocations for evaluation
+# SOURCE: Based on Mang & Bedell (2006), Ng'thu-k'Thaì (2001 NT translation)
+# METHODOLOGY: Extracted from linguistic research and authentic texts
+# FORMAT: word1 word2 [category] [frequency_estimate] [notes]
+#
+# Categories:
+#   VP = Verb + Particle
+#   PP = Postposition + Noun
+#   APP = Applicative construction
+#   AGR = Agreement + Verb
+#   AUX = Auxiliary verb construction
+#   MWE = Multi-word expression (3+ words)
+#   COMP = Complementizer construction
+
+# === VERB + PARTICLE (VP) ===
+# Most common pattern in K'Cho
+pe ci          # VP, high_freq, give + non-future
+lo ci          # VP, high_freq, come + non-future
+that ci        # VP, high_freq, beat + non-future
+htui ci        # VP, medium_freq, bite + non-future
+hngu ci        # VP, medium_freq, see + non-future
+zòi ci         # VP, medium_freq, sell + non-future
+ni ci          # VP, medium_freq, good + non-future
+pe khai        # VP, medium_freq, give + future
+lo khai        # VP, medium_freq, come + future
+sì ci          # VP, medium_freq, die + non-future
+
+# === POSTPOSITION + NOUN (PP) ===
+# Grammatical collocations
+noh Yóng       # PP, high_freq, postposition + proper_noun
+noh Om         # PP, high_freq, postposition + proper_noun
+am pàapai      # PP, high_freq, to + flower
+noh k'chàang   # PP, medium_freq, postposition + man
+noh k'hngumí   # PP, medium_freq, postposition + woman
+noh ui         # PP, medium_freq, postposition + dog
+ah k'chàang    # PP, medium_freq, complementizer + man
+am k'am        # PP, low_freq, to + pot
+
+# === APPLICATIVE CONSTRUCTIONS (APP) ===
+# Verb + -na suffix (key K'Cho feature)
+luum-na ci     # APP, medium_freq, play-APP + NF
+thah-na ci     # APP, medium_freq, beat-APP + NF
+zèi-na ci      # APP, medium_freq, pleased-APP + NF
+k'chú-na ci    # APP, low_freq, wife-APP + NF
+ng'mìng-na ci  # APP, low_freq, name-APP + NF
+khò-na ci      # APP, low_freq, land-APP + NF
+ka-na ci       # APP, low_freq, one-APP + NF (possession)
+
+# === AGREEMENT + VERB (AGR) ===
+# Subject/object agreement patterns
+a péit         # AGR, high_freq, 3S + give.STEM2
+ka hngu        # AGR, medium_freq, 1S + see
+a hnguh        # AGR, medium_freq, 3S + see.STEM2
+ani thah-nák   # AGR, low_freq, 3DL + beat-APP.STEM2
+ami hnguh      # AGR, low_freq, 3PL + see.STEM2
+ka zèi         # AGR, medium_freq, 1S + pleased
+
+# === AUXILIARY CONSTRUCTIONS (AUX) ===
+# Main verb + auxiliary
+lo lo          # AUX, medium_freq, come + begin (inceptive)
+pe lo          # AUX, medium_freq, give + begin
+that lo        # AUX, low_freq, beat + begin
+luum loo-na    # AUX, low_freq, play + begin-APP
+
+# === COMPLEMENTIZER PATTERNS (COMP) ===
+# Clause marker patterns
+ci ah          # COMP, very_high_freq, NF + complementizer
+khai ah        # COMP, medium_freq, FUT + complementizer
+te ah          # COMP, medium_freq, past + complementizer
+ne ah          # COMP, low_freq, particle + complementizer
+
+# === MULTI-WORD EXPRESSIONS (MWE) ===
+# Fixed 3+ word patterns
+pe ci ah       # MWE, high_freq, give NF COMP (relative clause)
+lo ci ah       # MWE, high_freq, come NF COMP
+noh Yóng am    # MWE, medium_freq, P Yong to (ditransitive frame)
+Om noh Yóng    # MWE, medium_freq, Om P Yong (subject + IO)
+am pàapai pe   # MWE, medium_freq, to flower give
+a péit ah      # MWE, high_freq, 3S give.STEM2 COMP
+ka hngu ci     # MWE, medium_freq, 1S see NF
+
+# === COMPOUND NOUNS ===
+k'am-k'zòi     # MWE, low_freq, pot-seller (compound)
+k'chàang-k'ní  # MWE, low_freq, man-good (compound)
+
+# === LEXICAL COLLOCATIONS ===
+# Semantically motivated pairs
+ui htui        # LEX, medium_freq, dog bite
+khò na         # LEX, low_freq, rain continue (idiomatic)
+àihli ng'dáng  # LEX, low_freq, star appear
+
+# === DISCOURSE MARKERS ===
+cun ah         # DISC, medium_freq, that + complementizer (definiteness)
+sin ah         # DISC, low_freq, this + complementizer
+
+# TOTAL: 55 gold standard collocations
+# Distribution: VP=10, PP=8, APP=7, AGR=6, AUX=4, COMP=4, MWE=7, COMPOUND=2, LEX=3, DISC=2

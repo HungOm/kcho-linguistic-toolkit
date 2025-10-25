@@ -33,7 +33,9 @@ def compute_precision_recall(predicted: List[CollocationResult],
     if top_k:
         predicted = predicted[:top_k]
     
-    predicted_set = {coll.words for coll in predicted}
+    # Filter out None values and invalid entries
+    valid_predictions = [coll for coll in predicted if coll is not None and hasattr(coll, 'words')]
+    predicted_set = {coll.words for coll in valid_predictions}
     
     true_positives = len(predicted_set & gold_standard)
     false_positives = len(predicted_set - gold_standard)
@@ -150,6 +152,10 @@ def load_gold_standard(file_path: str) -> Set[Tuple[str, ...]]:
         for line in f:
             line = line.strip()
             if line and not line.startswith('#'):
-                words = tuple(line.split())
-                gold_set.add(words)
+                # Split by space and take only the first two words
+                words = line.split()
+                if len(words) >= 2:
+                    # Take only the first two words for the collocation
+                    collocation = tuple(words[:2])
+                    gold_set.add(collocation)
     return gold_set

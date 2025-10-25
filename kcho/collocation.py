@@ -41,6 +41,20 @@ class AssociationMeasure(Enum):
     DICE = "dice"
     LOG_LIKELIHOOD = "log_likelihood"
 
+
+class LinguisticPattern(Enum):
+    """Linguistic pattern categories for K'Cho collocations."""
+    VP = "verb_particle"           # Verb + Particle (e.g., "pe ci")
+    PP = "postposition_phrase"     # Postposition + Noun (e.g., "noh Yóng")
+    APP = "applicative"            # Applicative construction (e.g., "luum-na ci")
+    AGR = "agreement"              # Agreement + Verb (e.g., "a péit")
+    AUX = "auxiliary"              # Auxiliary construction (e.g., "lo lo")
+    COMP = "complementizer"        # Complementizer pattern (e.g., "ci ah")
+    MWE = "multi_word_expression"  # Multi-word expressions (3+)
+    LEX = "lexical_collocation"    # Lexical collocations
+    COMPOUND = "compound_noun"     # Compound nouns
+    DISC = "discourse_marker"       # Discourse markers
+
 @dataclass
 class CollocationResult:
     """Single collocation result."""
@@ -49,9 +63,14 @@ class CollocationResult:
     measure: AssociationMeasure
     frequency: int
     positions: List[int] = field(default_factory=list)
+    linguistic_pattern: Optional[LinguisticPattern] = None
+    pattern_confidence: float = 0.0
+    pos_tags: Optional[List[str]] = None
+    context_examples: List[str] = field(default_factory=list)
     
     def __repr__(self):
-        return f"Collocation({' '.join(self.words)}, {self.measure.value}={self.score:.4f}, freq={self.frequency})"
+        pattern_str = f", pattern={self.linguistic_pattern.value}" if self.linguistic_pattern else ""
+        return f"Collocation({' '.join(self.words)}, {self.measure.value}={self.score:.4f}, freq={self.frequency}{pattern_str})"
 
 class CollocationExtractor:
     """
@@ -179,8 +198,8 @@ class CollocationExtractor:
                 positions=[]
             ))
         
-        # Sort by score (descending)
-        results.sort(key=lambda x: x.score, reverse=True)
+        # Sort by frequency (descending) - largest at top
+        results.sort(key=lambda x: x.frequency, reverse=True)
         return results
     
     def _pmi(self, freq_1: int, freq_2: int, freq_12: int) -> float:
@@ -435,7 +454,7 @@ class CollocationExtractor:
         for measure, results in collocations.items():
             for result in results:
                 # Extract POS pattern from collocation
-                pos_pattern = self._extract_pos_pattern(result.bigram)
+                pos_pattern = self._extract_pos_pattern(result.words)
                 pos_groups[pos_pattern].append(result)
         
         logger.info(f"Grouped collocations into {len(pos_groups)} POS patterns")
@@ -565,3 +584,143 @@ class CollocationExtractor:
         if tokens:
             patterns['sentence_starts'][tokens[0]] += 1
             patterns['sentence_ends'][tokens[-1]] += 1
+    
+    def _classify_linguistic_pattern(self, collocation: CollocationResult) -> Tuple[LinguisticPattern, float]:
+        """
+        Classify collocation into linguistic pattern category.
+        
+        Args:
+            collocation: CollocationResult to classify
+            
+        Returns:
+            Tuple of (pattern_type, confidence_score)
+        """
+        words = collocation.words
+        word_count = len(words)
+        
+        # Load gold standard patterns for reference
+        gold_patterns = self._load_gold_standard_patterns()
+        
+        # Check against known patterns
+        collocation_str = ' '.join(words)
+        
+        # Verb + Particle (VP) patterns
+        if word_count == 2:
+            if self._is_verb_particle_pattern(words, gold_patterns):
+                return LinguisticPattern.VP, 0.9
+            
+            # Postposition + Noun (PP) patterns
+            if self._is_postposition_noun_pattern(words, gold_patterns):
+                return LinguisticPattern.PP, 0.9
+            
+            # Agreement + Verb (AGR) patterns
+            if self._is_agreement_verb_pattern(words, gold_patterns):
+                return LinguisticPattern.AGR, 0.9
+            
+            # Complementizer patterns
+            if self._is_complementizer_pattern(words, gold_patterns):
+                return LinguisticPattern.COMP, 0.9
+        
+        # Applicative constructions (APP)
+        if any(word.endswith('-na') for word in words):
+            return LinguisticPattern.APP, 0.8
+        
+        # Multi-word expressions (3+ words)
+        if word_count >= 3:
+            return LinguisticPattern.MWE, 0.7
+        
+        # Compound nouns
+        if self._is_compound_noun_pattern(words):
+            return LinguisticPattern.COMPOUND, 0.8
+        
+        # Discourse markers
+        if self._is_discourse_marker_pattern(words, gold_patterns):
+            return LinguisticPattern.DISC, 0.7
+        
+        # Default to lexical collocation
+        return LinguisticPattern.LEX, 0.5
+    
+    def _load_gold_standard_patterns(self) -> Dict[str, List[str]]:
+        """Load gold standard patterns for classification."""
+        patterns = {
+            'VP': ['pe ci', 'lo ci', 'that ci', 'htui ci', 'hngu ci', 'zòi ci', 'ni ci', 'pe khai', 'lo khai', 'sì ci'],
+            'PP': ['noh Yóng', 'noh Om', 'am pàapai', 'noh k\'chàang', 'noh k\'hngumí', 'noh ui', 'ah k\'chàang', 'am k\'am'],
+            'APP': ['luum-na ci', 'thah-na ci', 'zèi-na ci', 'k\'chú-na ci', 'ng\'mìng-na ci', 'khò-na ci', 'ka-na ci'],
+            'AGR': ['a péit', 'ka hngu', 'a hnguh', 'ani thah-nák', 'ami hnguh', 'ka zèi'],
+            'AUX': ['lo lo', 'pe lo', 'that lo', 'luum loo-na'],
+            'COMP': ['ci ah', 'khai ah', 'te ah', 'ne ah'],
+            'MWE': ['pe ci ah', 'lo ci ah', 'noh Yóng am', 'Om noh Yóng', 'am pàapai pe', 'a péit ah', 'ka hngu ci'],
+            'COMPOUND': ['k\'am-k\'zòi', 'k\'chàang-k\'ní'],
+            'LEX': ['ui htui', 'khò na', 'àihli ng\'dáng'],
+            'DISC': ['cun ah', 'sin ah']
+        }
+        return patterns
+    
+    def _is_verb_particle_pattern(self, words: List[str], gold_patterns: Dict) -> bool:
+        """Check if words form a verb + particle pattern."""
+        collocation_str = ' '.join(words)
+        return collocation_str in gold_patterns['VP']
+    
+    def _is_postposition_noun_pattern(self, words: List[str], gold_patterns: Dict) -> bool:
+        """Check if words form a postposition + noun pattern."""
+        collocation_str = ' '.join(words)
+        return collocation_str in gold_patterns['PP']
+    
+    def _is_agreement_verb_pattern(self, words: List[str], gold_patterns: Dict) -> bool:
+        """Check if words form an agreement + verb pattern."""
+        collocation_str = ' '.join(words)
+        return collocation_str in gold_patterns['AGR']
+    
+    def _is_complementizer_pattern(self, words: List[str], gold_patterns: Dict) -> bool:
+        """Check if words form a complementizer pattern."""
+        collocation_str = ' '.join(words)
+        return collocation_str in gold_patterns['COMP']
+    
+    def _is_compound_noun_pattern(self, words: List[str]) -> bool:
+        """Check if words form a compound noun pattern."""
+        # Look for hyphenated compounds
+        return any('-' in word for word in words)
+    
+    def _is_discourse_marker_pattern(self, words: List[str], gold_patterns: Dict) -> bool:
+        """Check if words form a discourse marker pattern."""
+        collocation_str = ' '.join(words)
+        return collocation_str in gold_patterns['DISC']
+    
+    def extract_with_patterns(self, corpus: List[str], patterns: Optional[List[str]] = None) -> Dict[AssociationMeasure, List[CollocationResult]]:
+        """
+        Extract collocations with linguistic pattern classification.
+        
+        Args:
+            corpus: List of K'Cho sentences
+            patterns: List of linguistic patterns to detect (optional)
+            
+        Returns:
+            Dictionary mapping measures to enhanced collocation results
+        """
+        # First extract basic collocations
+        results = self.extract(corpus)
+        
+        # Classify each collocation
+        for measure, collocations in results.items():
+            for collocation in collocations:
+                pattern_type, confidence = self._classify_linguistic_pattern(collocation)
+                collocation.linguistic_pattern = pattern_type
+                collocation.pattern_confidence = confidence
+                
+                # Add context examples
+                collocation.context_examples = self._find_context_examples(corpus, collocation.words)
+        
+        return results
+    
+    def _find_context_examples(self, corpus: List[str], words: Tuple[str, ...]) -> List[str]:
+        """Find context examples for a collocation."""
+        examples = []
+        collocation_str = ' '.join(words)
+        
+        for sentence in corpus:
+            if collocation_str in sentence:
+                examples.append(sentence)
+                if len(examples) >= 3:  # Limit to 3 examples
+                    break
+        
+        return examples

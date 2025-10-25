@@ -97,6 +97,43 @@ class KChoNormalizer:
         
         return [t for t in tokens if t]
     
+    def sentence_split(self, text: str) -> List[str]:
+        """
+        Split text into sentences using K'Cho sentence boundaries.
+        
+        K'Cho sentence boundaries:
+        - Period (.) - main sentence boundary
+        - Exclamation (!) - exclamatory sentences
+        - Question mark (?) - interrogative sentences
+        - Semicolon (;) - NOT a sentence boundary in K'Cho
+        
+        Args:
+            text: Input text to split
+            
+        Returns:
+            List of sentences
+        """
+        if not text or not text.strip():
+            return []
+        
+        # Split on sentence boundaries
+        sentences = []
+        current_sentence = ""
+        
+        for char in text:
+            current_sentence += char
+            if char in '.!?':
+                sentence = current_sentence.strip()
+                if sentence:
+                    sentences.append(sentence)
+                current_sentence = ""
+        
+        # Add remaining text if any
+        if current_sentence.strip():
+            sentences.append(current_sentence.strip())
+        
+        return [s for s in sentences if s]
+
     def lemmatize_simple(self, token: str) -> str:
         """
         Simple lemmatization for K'Cho.
