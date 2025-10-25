@@ -3,7 +3,7 @@
 **Author**: Hung Om  
 **Research Foundation**: Based on foundational K'Cho linguistic research and Austroasiatic language studies  
 **Version**: 0.2.0  
-**Date**: 2024-10-25
+**Date**: 2025-01-25
 
 ## Overview
 
