@@ -1,0 +1,18 @@
+data_sources:
+  gold_standard_collocations: "data/gold_standard_collocations.txt"
+  gold_standard_corpus: "data/gold_standard_kcho_english.json"
+  sample_corpus: "data/sample_corpus.txt"
+  custom_corpus: "data/custom_corpus.txt"
+  aligned_corpus: "data/parallel_corpora/aligned_cho_english.csv"
+  linguistic_data: "kcho/data/linguistic_data.json"
+
+collocation:
+  window_size: 5
+  min_freq: 5
+  measures: [pmi, tscore, dice, log_likelihood, npmi]
+  linguistic_patterns: [VP, PP, APP, AGR, AUX, COMP, MWE]
+
+output:
+  formats: [csv, json, txt]
+  include_metadata: true
+  output_dir: "output"

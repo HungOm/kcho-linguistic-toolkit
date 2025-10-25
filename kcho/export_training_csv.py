@@ -11,7 +11,7 @@ Usage:
 import argparse
 import logging
 from pathlib import Path
-from eng_kcho_parallel_extractor import ParallelCorpusExtractor
+from .eng_kcho_parallel_extractor import ParallelCorpusExtractor
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
