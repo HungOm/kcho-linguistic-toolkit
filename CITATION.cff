@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Om"
+    given-names: "Hung"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Replace with actual ORCID if available
+title: "K'Cho Linguistic Processing Toolkit"
+version: "0.2.0"
+date-released: "2024-10-25"
+url: "https://github.com/HungOm/kcho-linguistic-toolkit"
+license: "MIT"
+keywords:
+  - "computational linguistics"
+  - "low-resource languages"
+  - "K'Cho language"
+  - "morphological analysis"
+  - "collocation extraction"
+  - "pattern discovery"
+  - "Austroasiatic languages"
+abstract: "A comprehensive computational toolkit for K'Cho language processing, featuring SQLite-backed knowledge management, pattern discovery, linguistic analysis, and API integration capabilities. The system implements statistical collocation extraction, morphological analysis, syntactic parsing, and pattern discovery algorithms optimized for linguistic research applications."
+preferred-citation:
+  type: "software"
+  title: "K'Cho Linguistic Processing Toolkit"
+  authors:
+    - family-names: "Om"
+      given-names: "Hung"
+  year: 2024
+  url: "https://github.com/HungOm/kcho-linguistic-toolkit"
+  note: "Computational implementation based on foundational K'Cho linguistic research"
